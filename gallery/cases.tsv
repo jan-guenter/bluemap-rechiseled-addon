@@ -1,0 +1,182 @@
+case_id	category	x	y	z	placements	notes
+layout-pieced-none	layout-mask	10	100	-180	1	pieced top-face mask 0x00
+layout-pieced-top	layout-mask	16	100	-180	2	pieced top-face mask 0x01
+layout-pieced-right	layout-mask	22	100	-180	2	pieced top-face mask 0x04
+layout-pieced-bottom	layout-mask	28	100	-180	2	pieced top-face mask 0x10
+layout-pieced-left	layout-mask	34	100	-180	2	pieced top-face mask 0x40
+layout-pieced-top-right	layout-mask	40	100	-180	3	pieced top-face mask 0x05
+layout-pieced-top-bottom	layout-mask	46	100	-180	3	pieced top-face mask 0x11
+layout-pieced-left-right	layout-mask	52	100	-180	3	pieced top-face mask 0x44
+layout-pieced-cardinals	layout-mask	58	100	-180	5	pieced top-face mask 0x55
+layout-pieced-one-diagonal	layout-mask	64	100	-180	6	pieced top-face mask 0x57
+layout-pieced-mask-dd	layout-mask	70	100	-180	7	pieced top-face mask 0xdd
+layout-pieced-full-edge47	layout-mask	76	100	-180	8	pieced top-face mask 0x7f
+layout-pieced-full-edge46	layout-mask	82	100	-180	8	pieced top-face mask 0xfd
+layout-pieced-all	layout-mask	88	100	-180	9	pieced top-face mask 0xff
+layout-full-none	layout-mask	94	100	-180	1	full top-face mask 0x00
+layout-full-top	layout-mask	100	100	-180	2	full top-face mask 0x01
+layout-full-right	layout-mask	106	100	-180	2	full top-face mask 0x04
+layout-full-bottom	layout-mask	112	100	-180	2	full top-face mask 0x10
+layout-full-left	layout-mask	118	100	-180	2	full top-face mask 0x40
+layout-full-top-right	layout-mask	124	100	-180	3	full top-face mask 0x05
+layout-full-top-bottom	layout-mask	10	100	-174	3	full top-face mask 0x11
+layout-full-left-right	layout-mask	16	100	-174	3	full top-face mask 0x44
+layout-full-cardinals	layout-mask	22	100	-174	5	full top-face mask 0x55
+layout-full-one-diagonal	layout-mask	28	100	-174	6	full top-face mask 0x57
+layout-full-purpur-tile40	layout-mask	34	100	-174	7	full top-face mask 0xdd
+layout-full-full-edge47	layout-mask	40	100	-174	8	full top-face mask 0x7f
+layout-full-full-edge46	layout-mask	46	100	-174	8	full top-face mask 0xfd
+layout-full-all	layout-mask	52	100	-174	9	full top-face mask 0xff
+layout-horizontal-none	layout-mask	58	100	-174	1	horizontal top-face mask 0x00
+layout-horizontal-top	layout-mask	64	100	-174	2	horizontal top-face mask 0x01
+layout-horizontal-right	layout-mask	70	100	-174	2	horizontal top-face mask 0x04
+layout-horizontal-bottom	layout-mask	76	100	-174	2	horizontal top-face mask 0x10
+layout-horizontal-left	layout-mask	82	100	-174	2	horizontal top-face mask 0x40
+layout-horizontal-top-right	layout-mask	88	100	-174	3	horizontal top-face mask 0x05
+layout-horizontal-top-bottom	layout-mask	94	100	-174	3	horizontal top-face mask 0x11
+layout-horizontal-left-right	layout-mask	100	100	-174	3	horizontal top-face mask 0x44
+layout-horizontal-cardinals	layout-mask	106	100	-174	5	horizontal top-face mask 0x55
+layout-horizontal-one-diagonal	layout-mask	112	100	-174	6	horizontal top-face mask 0x57
+layout-horizontal-mask-dd	layout-mask	118	100	-174	7	horizontal top-face mask 0xdd
+layout-horizontal-full-edge47	layout-mask	124	100	-174	8	horizontal top-face mask 0x7f
+layout-horizontal-full-edge46	layout-mask	10	100	-168	8	horizontal top-face mask 0xfd
+layout-horizontal-all	layout-mask	16	100	-168	9	horizontal top-face mask 0xff
+layout-vertical-none	layout-mask	22	100	-168	1	vertical top-face mask 0x00
+layout-vertical-top	layout-mask	28	100	-168	2	vertical top-face mask 0x01
+layout-vertical-right	layout-mask	34	100	-168	2	vertical top-face mask 0x04
+layout-vertical-bottom	layout-mask	40	100	-168	2	vertical top-face mask 0x10
+layout-vertical-left	layout-mask	46	100	-168	2	vertical top-face mask 0x40
+layout-vertical-top-right	layout-mask	52	100	-168	3	vertical top-face mask 0x05
+layout-vertical-top-bottom	layout-mask	58	100	-168	3	vertical top-face mask 0x11
+layout-vertical-left-right	layout-mask	64	100	-168	3	vertical top-face mask 0x44
+layout-vertical-cardinals	layout-mask	70	100	-168	5	vertical top-face mask 0x55
+layout-vertical-one-diagonal	layout-mask	76	100	-168	6	vertical top-face mask 0x57
+layout-vertical-mask-dd	layout-mask	82	100	-168	7	vertical top-face mask 0xdd
+layout-vertical-full-edge47	layout-mask	88	100	-168	8	vertical top-face mask 0x7f
+layout-vertical-full-edge46	layout-mask	94	100	-168	8	vertical top-face mask 0xfd
+layout-vertical-all	layout-mask	100	100	-168	9	vertical top-face mask 0xff
+layout-simple-none	layout-mask	106	100	-168	1	simple top-face mask 0x00
+layout-simple-top	layout-mask	112	100	-168	2	simple top-face mask 0x01
+layout-simple-right	layout-mask	118	100	-168	2	simple top-face mask 0x04
+layout-simple-bottom	layout-mask	124	100	-168	2	simple top-face mask 0x10
+layout-simple-left	layout-mask	10	100	-162	2	simple top-face mask 0x40
+layout-simple-top-right	layout-mask	16	100	-162	3	simple top-face mask 0x05
+layout-simple-top-bottom	layout-mask	22	100	-162	3	simple top-face mask 0x11
+layout-simple-left-right	layout-mask	28	100	-162	3	simple top-face mask 0x44
+layout-simple-cardinals	layout-mask	34	100	-162	5	simple top-face mask 0x55
+layout-simple-one-diagonal	layout-mask	40	100	-162	6	simple top-face mask 0x57
+layout-simple-mask-dd	layout-mask	46	100	-162	7	simple top-face mask 0xdd
+layout-simple-full-edge47	layout-mask	52	100	-162	8	simple top-face mask 0x7f
+layout-simple-full-edge46	layout-mask	58	100	-162	8	simple top-face mask 0xfd
+layout-simple-all	layout-mask	64	100	-162	9	simple top-face mask 0xff
+layout-plain-axis-end	layout-mask	70	100	-162	1	plain end texture; no connected-sheet selection
+slab-bottom-waterlogged-false	slab-state	76	100	-162	1	exact slab topology and persisted waterlogged state
+slab-bottom-waterlogged-true	slab-state	82	100	-162	1	exact slab topology and persisted waterlogged state
+slab-double-waterlogged-false	slab-state	88	100	-162	1	exact slab topology and persisted waterlogged state
+slab-double-waterlogged-true	slab-state	94	100	-162	1	exact slab topology and persisted waterlogged state
+slab-top-waterlogged-false	slab-state	100	100	-162	1	exact slab topology and persisted waterlogged state
+slab-top-waterlogged-true	slab-state	106	100	-162	1	exact slab topology and persisted waterlogged state
+pieced-slab-bottom-connected	pieced-partial	112	100	-162	2	connected partial side UV crosses the global PIECED seam
+pieced-slab-top-connected	pieced-partial	118	100	-162	2	connected partial side UV crosses the global PIECED seam
+stairs-east-bottom-inner_left-waterlogged-false	stairs-state	124	100	-162	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-east-bottom-inner_left-waterlogged-true	stairs-state	10	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-east-bottom-inner_right-waterlogged-false	stairs-state	16	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-east-bottom-inner_right-waterlogged-true	stairs-state	22	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-east-bottom-outer_left-waterlogged-false	stairs-state	28	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-east-bottom-outer_left-waterlogged-true	stairs-state	34	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-east-bottom-outer_right-waterlogged-false	stairs-state	40	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-east-bottom-outer_right-waterlogged-true	stairs-state	46	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-east-bottom-straight-waterlogged-false	stairs-state	52	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-east-bottom-straight-waterlogged-true	stairs-state	58	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-east-top-inner_left-waterlogged-false	stairs-state	64	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-east-top-inner_left-waterlogged-true	stairs-state	70	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-east-top-inner_right-waterlogged-false	stairs-state	76	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-east-top-inner_right-waterlogged-true	stairs-state	82	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-east-top-outer_left-waterlogged-false	stairs-state	88	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-east-top-outer_left-waterlogged-true	stairs-state	94	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-east-top-outer_right-waterlogged-false	stairs-state	100	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-east-top-outer_right-waterlogged-true	stairs-state	106	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-east-top-straight-waterlogged-false	stairs-state	112	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-east-top-straight-waterlogged-true	stairs-state	118	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-north-bottom-inner_left-waterlogged-false	stairs-state	124	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-north-bottom-inner_left-waterlogged-true	stairs-state	10	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-north-bottom-inner_right-waterlogged-false	stairs-state	16	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-north-bottom-inner_right-waterlogged-true	stairs-state	22	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-north-bottom-outer_left-waterlogged-false	stairs-state	28	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-north-bottom-outer_left-waterlogged-true	stairs-state	34	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-north-bottom-outer_right-waterlogged-false	stairs-state	40	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-north-bottom-outer_right-waterlogged-true	stairs-state	46	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-north-bottom-straight-waterlogged-false	stairs-state	52	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-north-bottom-straight-waterlogged-true	stairs-state	58	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-north-top-inner_left-waterlogged-false	stairs-state	64	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-north-top-inner_left-waterlogged-true	stairs-state	70	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-north-top-inner_right-waterlogged-false	stairs-state	76	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-north-top-inner_right-waterlogged-true	stairs-state	82	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-north-top-outer_left-waterlogged-false	stairs-state	88	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-north-top-outer_left-waterlogged-true	stairs-state	94	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-north-top-outer_right-waterlogged-false	stairs-state	100	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-north-top-outer_right-waterlogged-true	stairs-state	106	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-north-top-straight-waterlogged-false	stairs-state	112	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-north-top-straight-waterlogged-true	stairs-state	118	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-south-bottom-inner_left-waterlogged-false	stairs-state	124	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-south-bottom-inner_left-waterlogged-true	stairs-state	10	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-south-bottom-inner_right-waterlogged-false	stairs-state	16	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-south-bottom-inner_right-waterlogged-true	stairs-state	22	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-south-bottom-outer_left-waterlogged-false	stairs-state	28	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-south-bottom-outer_left-waterlogged-true	stairs-state	34	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-south-bottom-outer_right-waterlogged-false	stairs-state	40	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-south-bottom-outer_right-waterlogged-true	stairs-state	46	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-south-bottom-straight-waterlogged-false	stairs-state	52	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-south-bottom-straight-waterlogged-true	stairs-state	58	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-south-top-inner_left-waterlogged-false	stairs-state	64	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-south-top-inner_left-waterlogged-true	stairs-state	70	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-south-top-inner_right-waterlogged-false	stairs-state	76	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-south-top-inner_right-waterlogged-true	stairs-state	82	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-south-top-outer_left-waterlogged-false	stairs-state	88	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-south-top-outer_left-waterlogged-true	stairs-state	94	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-south-top-outer_right-waterlogged-false	stairs-state	100	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-south-top-outer_right-waterlogged-true	stairs-state	106	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-south-top-straight-waterlogged-false	stairs-state	112	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-south-top-straight-waterlogged-true	stairs-state	118	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-west-bottom-inner_left-waterlogged-false	stairs-state	124	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-west-bottom-inner_left-waterlogged-true	stairs-state	10	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-west-bottom-inner_right-waterlogged-false	stairs-state	16	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-west-bottom-inner_right-waterlogged-true	stairs-state	22	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-west-bottom-outer_left-waterlogged-false	stairs-state	28	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-west-bottom-outer_left-waterlogged-true	stairs-state	34	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-west-bottom-outer_right-waterlogged-false	stairs-state	40	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-west-bottom-outer_right-waterlogged-true	stairs-state	46	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-west-bottom-straight-waterlogged-false	stairs-state	52	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-west-bottom-straight-waterlogged-true	stairs-state	58	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-west-top-inner_left-waterlogged-false	stairs-state	64	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-west-top-inner_left-waterlogged-true	stairs-state	70	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-west-top-inner_right-waterlogged-false	stairs-state	76	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-west-top-inner_right-waterlogged-true	stairs-state	82	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-west-top-outer_left-waterlogged-false	stairs-state	88	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-west-top-outer_left-waterlogged-true	stairs-state	94	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-west-top-outer_right-waterlogged-false	stairs-state	100	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-west-top-outer_right-waterlogged-true	stairs-state	106	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-west-top-straight-waterlogged-false	stairs-state	112	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
+stairs-west-top-straight-waterlogged-true	stairs-state	118	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
+pieced-stair-connected	pieced-partial	124	100	-138	2	connected stair partial UV and inner topology take PIECED split path
+axis-amethyst_block_pillar_connecting	axis-state	10	100	-132	3	all x/y/z pillar transforms and per-face mixed layouts
+axis-blue_ice_pillar_connecting	axis-state	16	100	-132	3	all x/y/z pillar transforms and per-face mixed layouts
+axis-bone_block_connecting_connecting	axis-state	22	100	-132	3	all x/y/z pillar transforms and per-face mixed layouts
+axis-bone_block_pillar_connecting	axis-state	28	100	-132	3	all x/y/z pillar transforms and per-face mixed layouts
+axis-coal_block_pillar_connecting	axis-state	34	100	-132	3	all x/y/z pillar transforms and per-face mixed layouts
+axis-cobbled_deepslate_pillar_connecting	axis-state	40	100	-132	3	all x/y/z pillar transforms and per-face mixed layouts
+axis-cobblestone_pillar_connecting	axis-state	46	100	-132	3	all x/y/z pillar transforms and per-face mixed layouts
+axis-copper_block_pillar_connecting	axis-state	52	100	-132	3	all x/y/z pillar transforms and per-face mixed layouts
+axis-emerald_block_pillar_connecting	axis-state	58	100	-132	3	all x/y/z pillar transforms and per-face mixed layouts
+axis-lapis_block_pillar_connecting	axis-state	64	100	-132	3	all x/y/z pillar transforms and per-face mixed layouts
+axis-netherite_block_pillar_connecting	axis-state	70	100	-132	3	all x/y/z pillar transforms and per-face mixed layouts
+axis-redstone_block_pillar_connecting	axis-state	76	100	-132	3	all x/y/z pillar transforms and per-face mixed layouts
+axis-x-same-state-continuity	axis-connection	82	100	-132	2	horizontal child is_same_state x-to-x continuity
+axis-z-same-state-continuity	axis-connection	88	100	-132	2	horizontal child is_same_state z-to-z continuity
+axis-state-mismatch	axis-connection	94	100	-132	3	x/y/z are deliberately not the same persisted state
+axis-y-shape-interconnection	axis-connection	100	100	-132	3	axis=y base predicate interconnects matching slab and stair family
+glowstone-full-connected	glowstone	106	100	-132	9	ordinary installed block light; no invented emissive material
+glowstone-slab-connected	glowstone	112	100	-132	3	connected glowstone slab geometry and ordinary element light
+glowstone-stair-connected	glowstone	118	100	-132	2	connected glowstone stair silhouettes and ordinary element light
+stock-0	stock	148	100	-55	1	untouched stock renderer control: rechiseled:acacia_planks_beams
+stock-1	stock	154	100	-55	1	untouched stock renderer control: minecraft:stone

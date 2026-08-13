@@ -1,0 +1,5402 @@
+{
+  "baseline": {
+    "fusion": "1.3.12",
+    "minecraft": "1.21.1",
+    "pack": "All the Mons 1.2.0",
+    "rechiseled": "1.2.5"
+  },
+  "coverage": {
+    "axis_ids_x_y_z": 12,
+    "full_padding_rows": "excluded by logical 8x6 crop",
+    "full_tile_41": "unreachable by exhaustive 256-mask selector test",
+    "glowstone_routed_ids_in_isolated_census": 27,
+    "layouts": [
+      "plain",
+      "pieced",
+      "full",
+      "horizontal",
+      "vertical",
+      "simple"
+    ],
+    "negative_coordinates": true,
+    "stair_legal_states_for_representative": 80
+  },
+  "logical_case_count": 1924,
+  "routed_swatch_count": 1743,
+  "schema_version": 1,
+  "stock_control_count": 2,
+  "stock_controls": [
+    {
+      "block": "rechiseled:acacia_planks_beams",
+      "expected_route": "stock-control",
+      "x": 148,
+      "y": 100,
+      "z": -55
+    },
+    {
+      "block": "minecraft:stone",
+      "expected_route": "stock-control",
+      "x": 154,
+      "y": 100,
+      "z": -55
+    }
+  ],
+  "structural_case_count": 179,
+  "structural_cases": [
+    {
+      "anchor": {
+        "x": 10,
+        "y": 100,
+        "z": -180
+      },
+      "case_id": "layout-pieced-none",
+      "category": "layout-mask",
+      "notes": "pieced top-face mask 0x00",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 10,
+          "y": 100,
+          "z": -180
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 16,
+        "y": 100,
+        "z": -180
+      },
+      "case_id": "layout-pieced-top",
+      "category": "layout-mask",
+      "notes": "pieced top-face mask 0x01",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 16,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 16,
+          "y": 100,
+          "z": -181
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 22,
+        "y": 100,
+        "z": -180
+      },
+      "case_id": "layout-pieced-right",
+      "category": "layout-mask",
+      "notes": "pieced top-face mask 0x04",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 22,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 23,
+          "y": 100,
+          "z": -180
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 28,
+        "y": 100,
+        "z": -180
+      },
+      "case_id": "layout-pieced-bottom",
+      "category": "layout-mask",
+      "notes": "pieced top-face mask 0x10",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 28,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 28,
+          "y": 100,
+          "z": -179
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 34,
+        "y": 100,
+        "z": -180
+      },
+      "case_id": "layout-pieced-left",
+      "category": "layout-mask",
+      "notes": "pieced top-face mask 0x40",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 34,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 33,
+          "y": 100,
+          "z": -180
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 40,
+        "y": 100,
+        "z": -180
+      },
+      "case_id": "layout-pieced-top-right",
+      "category": "layout-mask",
+      "notes": "pieced top-face mask 0x05",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 40,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 40,
+          "y": 100,
+          "z": -181
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 41,
+          "y": 100,
+          "z": -180
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 46,
+        "y": 100,
+        "z": -180
+      },
+      "case_id": "layout-pieced-top-bottom",
+      "category": "layout-mask",
+      "notes": "pieced top-face mask 0x11",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 46,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 46,
+          "y": 100,
+          "z": -181
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 46,
+          "y": 100,
+          "z": -179
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 52,
+        "y": 100,
+        "z": -180
+      },
+      "case_id": "layout-pieced-left-right",
+      "category": "layout-mask",
+      "notes": "pieced top-face mask 0x44",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 52,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 53,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 51,
+          "y": 100,
+          "z": -180
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 58,
+        "y": 100,
+        "z": -180
+      },
+      "case_id": "layout-pieced-cardinals",
+      "category": "layout-mask",
+      "notes": "pieced top-face mask 0x55",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 58,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 58,
+          "y": 100,
+          "z": -181
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 59,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 58,
+          "y": 100,
+          "z": -179
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 57,
+          "y": 100,
+          "z": -180
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 64,
+        "y": 100,
+        "z": -180
+      },
+      "case_id": "layout-pieced-one-diagonal",
+      "category": "layout-mask",
+      "notes": "pieced top-face mask 0x57",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 64,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 64,
+          "y": 100,
+          "z": -181
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 65,
+          "y": 100,
+          "z": -181
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 65,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 64,
+          "y": 100,
+          "z": -179
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 63,
+          "y": 100,
+          "z": -180
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 70,
+        "y": 100,
+        "z": -180
+      },
+      "case_id": "layout-pieced-mask-dd",
+      "category": "layout-mask",
+      "notes": "pieced top-face mask 0xdd",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 70,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 70,
+          "y": 100,
+          "z": -181
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 71,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 71,
+          "y": 100,
+          "z": -179
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 70,
+          "y": 100,
+          "z": -179
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 69,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 69,
+          "y": 100,
+          "z": -181
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 76,
+        "y": 100,
+        "z": -180
+      },
+      "case_id": "layout-pieced-full-edge47",
+      "category": "layout-mask",
+      "notes": "pieced top-face mask 0x7f",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 76,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 76,
+          "y": 100,
+          "z": -181
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 77,
+          "y": 100,
+          "z": -181
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 77,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 77,
+          "y": 100,
+          "z": -179
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 76,
+          "y": 100,
+          "z": -179
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 75,
+          "y": 100,
+          "z": -179
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 75,
+          "y": 100,
+          "z": -180
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 82,
+        "y": 100,
+        "z": -180
+      },
+      "case_id": "layout-pieced-full-edge46",
+      "category": "layout-mask",
+      "notes": "pieced top-face mask 0xfd",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 82,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 82,
+          "y": 100,
+          "z": -181
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 83,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 83,
+          "y": 100,
+          "z": -179
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 82,
+          "y": 100,
+          "z": -179
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 81,
+          "y": 100,
+          "z": -179
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 81,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 81,
+          "y": 100,
+          "z": -181
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 88,
+        "y": 100,
+        "z": -180
+      },
+      "case_id": "layout-pieced-all",
+      "category": "layout-mask",
+      "notes": "pieced top-face mask 0xff",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 88,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 88,
+          "y": 100,
+          "z": -181
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 89,
+          "y": 100,
+          "z": -181
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 89,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 89,
+          "y": 100,
+          "z": -179
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 88,
+          "y": 100,
+          "z": -179
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 87,
+          "y": 100,
+          "z": -179
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 87,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_connecting",
+          "expected_route": "custom",
+          "x": 87,
+          "y": 100,
+          "z": -181
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 94,
+        "y": 100,
+        "z": -180
+      },
+      "case_id": "layout-full-none",
+      "category": "layout-mask",
+      "notes": "full top-face mask 0x00",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 94,
+          "y": 100,
+          "z": -180
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 100,
+        "y": 100,
+        "z": -180
+      },
+      "case_id": "layout-full-top",
+      "category": "layout-mask",
+      "notes": "full top-face mask 0x01",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 100,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 100,
+          "y": 100,
+          "z": -181
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 106,
+        "y": 100,
+        "z": -180
+      },
+      "case_id": "layout-full-right",
+      "category": "layout-mask",
+      "notes": "full top-face mask 0x04",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 106,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 107,
+          "y": 100,
+          "z": -180
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 112,
+        "y": 100,
+        "z": -180
+      },
+      "case_id": "layout-full-bottom",
+      "category": "layout-mask",
+      "notes": "full top-face mask 0x10",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 112,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 112,
+          "y": 100,
+          "z": -179
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 118,
+        "y": 100,
+        "z": -180
+      },
+      "case_id": "layout-full-left",
+      "category": "layout-mask",
+      "notes": "full top-face mask 0x40",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 118,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 117,
+          "y": 100,
+          "z": -180
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 124,
+        "y": 100,
+        "z": -180
+      },
+      "case_id": "layout-full-top-right",
+      "category": "layout-mask",
+      "notes": "full top-face mask 0x05",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 124,
+          "y": 100,
+          "z": -180
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 124,
+          "y": 100,
+          "z": -181
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 125,
+          "y": 100,
+          "z": -180
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 10,
+        "y": 100,
+        "z": -174
+      },
+      "case_id": "layout-full-top-bottom",
+      "category": "layout-mask",
+      "notes": "full top-face mask 0x11",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 10,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 10,
+          "y": 100,
+          "z": -175
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 10,
+          "y": 100,
+          "z": -173
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 16,
+        "y": 100,
+        "z": -174
+      },
+      "case_id": "layout-full-left-right",
+      "category": "layout-mask",
+      "notes": "full top-face mask 0x44",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 16,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 17,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 15,
+          "y": 100,
+          "z": -174
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 22,
+        "y": 100,
+        "z": -174
+      },
+      "case_id": "layout-full-cardinals",
+      "category": "layout-mask",
+      "notes": "full top-face mask 0x55",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 22,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 22,
+          "y": 100,
+          "z": -175
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 23,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 22,
+          "y": 100,
+          "z": -173
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 21,
+          "y": 100,
+          "z": -174
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 28,
+        "y": 100,
+        "z": -174
+      },
+      "case_id": "layout-full-one-diagonal",
+      "category": "layout-mask",
+      "notes": "full top-face mask 0x57",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 28,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 28,
+          "y": 100,
+          "z": -175
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 29,
+          "y": 100,
+          "z": -175
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 29,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 28,
+          "y": 100,
+          "z": -173
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 27,
+          "y": 100,
+          "z": -174
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 34,
+        "y": 100,
+        "z": -174
+      },
+      "case_id": "layout-full-purpur-tile40",
+      "category": "layout-mask",
+      "notes": "full top-face mask 0xdd",
+      "placements": [
+        {
+          "block": "rechiseled:purpur_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 34,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:purpur_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 34,
+          "y": 100,
+          "z": -175
+        },
+        {
+          "block": "rechiseled:purpur_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 35,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:purpur_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 35,
+          "y": 100,
+          "z": -173
+        },
+        {
+          "block": "rechiseled:purpur_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 34,
+          "y": 100,
+          "z": -173
+        },
+        {
+          "block": "rechiseled:purpur_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 33,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:purpur_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 33,
+          "y": 100,
+          "z": -175
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 40,
+        "y": 100,
+        "z": -174
+      },
+      "case_id": "layout-full-full-edge47",
+      "category": "layout-mask",
+      "notes": "full top-face mask 0x7f",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 40,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 40,
+          "y": 100,
+          "z": -175
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 41,
+          "y": 100,
+          "z": -175
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 41,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 41,
+          "y": 100,
+          "z": -173
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 40,
+          "y": 100,
+          "z": -173
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 39,
+          "y": 100,
+          "z": -173
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 39,
+          "y": 100,
+          "z": -174
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 46,
+        "y": 100,
+        "z": -174
+      },
+      "case_id": "layout-full-full-edge46",
+      "category": "layout-mask",
+      "notes": "full top-face mask 0xfd",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 46,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 46,
+          "y": 100,
+          "z": -175
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 47,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 47,
+          "y": 100,
+          "z": -173
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 46,
+          "y": 100,
+          "z": -173
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 45,
+          "y": 100,
+          "z": -173
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 45,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 45,
+          "y": 100,
+          "z": -175
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 52,
+        "y": 100,
+        "z": -174
+      },
+      "case_id": "layout-full-all",
+      "category": "layout-mask",
+      "notes": "full top-face mask 0xff",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 52,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 52,
+          "y": 100,
+          "z": -175
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 53,
+          "y": 100,
+          "z": -175
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 53,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 53,
+          "y": 100,
+          "z": -173
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 52,
+          "y": 100,
+          "z": -173
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 51,
+          "y": 100,
+          "z": -173
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 51,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_brick_pattern_connecting",
+          "expected_route": "custom",
+          "x": 51,
+          "y": 100,
+          "z": -175
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 58,
+        "y": 100,
+        "z": -174
+      },
+      "case_id": "layout-horizontal-none",
+      "category": "layout-mask",
+      "notes": "horizontal top-face mask 0x00",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 58,
+          "y": 100,
+          "z": -174
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 64,
+        "y": 100,
+        "z": -174
+      },
+      "case_id": "layout-horizontal-top",
+      "category": "layout-mask",
+      "notes": "horizontal top-face mask 0x01",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 64,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 64,
+          "y": 100,
+          "z": -175
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 70,
+        "y": 100,
+        "z": -174
+      },
+      "case_id": "layout-horizontal-right",
+      "category": "layout-mask",
+      "notes": "horizontal top-face mask 0x04",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 70,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 71,
+          "y": 100,
+          "z": -174
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 76,
+        "y": 100,
+        "z": -174
+      },
+      "case_id": "layout-horizontal-bottom",
+      "category": "layout-mask",
+      "notes": "horizontal top-face mask 0x10",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 76,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 76,
+          "y": 100,
+          "z": -173
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 82,
+        "y": 100,
+        "z": -174
+      },
+      "case_id": "layout-horizontal-left",
+      "category": "layout-mask",
+      "notes": "horizontal top-face mask 0x40",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 82,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 81,
+          "y": 100,
+          "z": -174
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 88,
+        "y": 100,
+        "z": -174
+      },
+      "case_id": "layout-horizontal-top-right",
+      "category": "layout-mask",
+      "notes": "horizontal top-face mask 0x05",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 88,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 88,
+          "y": 100,
+          "z": -175
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 89,
+          "y": 100,
+          "z": -174
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 94,
+        "y": 100,
+        "z": -174
+      },
+      "case_id": "layout-horizontal-top-bottom",
+      "category": "layout-mask",
+      "notes": "horizontal top-face mask 0x11",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 94,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 94,
+          "y": 100,
+          "z": -175
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 94,
+          "y": 100,
+          "z": -173
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 100,
+        "y": 100,
+        "z": -174
+      },
+      "case_id": "layout-horizontal-left-right",
+      "category": "layout-mask",
+      "notes": "horizontal top-face mask 0x44",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 100,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 101,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 99,
+          "y": 100,
+          "z": -174
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 106,
+        "y": 100,
+        "z": -174
+      },
+      "case_id": "layout-horizontal-cardinals",
+      "category": "layout-mask",
+      "notes": "horizontal top-face mask 0x55",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 106,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 106,
+          "y": 100,
+          "z": -175
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 107,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 106,
+          "y": 100,
+          "z": -173
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 105,
+          "y": 100,
+          "z": -174
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 112,
+        "y": 100,
+        "z": -174
+      },
+      "case_id": "layout-horizontal-one-diagonal",
+      "category": "layout-mask",
+      "notes": "horizontal top-face mask 0x57",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 112,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 112,
+          "y": 100,
+          "z": -175
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 113,
+          "y": 100,
+          "z": -175
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 113,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 112,
+          "y": 100,
+          "z": -173
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 111,
+          "y": 100,
+          "z": -174
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 118,
+        "y": 100,
+        "z": -174
+      },
+      "case_id": "layout-horizontal-mask-dd",
+      "category": "layout-mask",
+      "notes": "horizontal top-face mask 0xdd",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 118,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 118,
+          "y": 100,
+          "z": -175
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 119,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 119,
+          "y": 100,
+          "z": -173
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 118,
+          "y": 100,
+          "z": -173
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 117,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 117,
+          "y": 100,
+          "z": -175
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 124,
+        "y": 100,
+        "z": -174
+      },
+      "case_id": "layout-horizontal-full-edge47",
+      "category": "layout-mask",
+      "notes": "horizontal top-face mask 0x7f",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 124,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 124,
+          "y": 100,
+          "z": -175
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 125,
+          "y": 100,
+          "z": -175
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 125,
+          "y": 100,
+          "z": -174
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 125,
+          "y": 100,
+          "z": -173
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 124,
+          "y": 100,
+          "z": -173
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 123,
+          "y": 100,
+          "z": -173
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 123,
+          "y": 100,
+          "z": -174
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 10,
+        "y": 100,
+        "z": -168
+      },
+      "case_id": "layout-horizontal-full-edge46",
+      "category": "layout-mask",
+      "notes": "horizontal top-face mask 0xfd",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 10,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 10,
+          "y": 100,
+          "z": -169
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 11,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 11,
+          "y": 100,
+          "z": -167
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 10,
+          "y": 100,
+          "z": -167
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 9,
+          "y": 100,
+          "z": -167
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 9,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 9,
+          "y": 100,
+          "z": -169
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 16,
+        "y": 100,
+        "z": -168
+      },
+      "case_id": "layout-horizontal-all",
+      "category": "layout-mask",
+      "notes": "horizontal top-face mask 0xff",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 16,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 16,
+          "y": 100,
+          "z": -169
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 17,
+          "y": 100,
+          "z": -169
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 17,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 17,
+          "y": 100,
+          "z": -167
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 16,
+          "y": 100,
+          "z": -167
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 15,
+          "y": 100,
+          "z": -167
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 15,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:acacia_planks_bricks_connecting",
+          "expected_route": "custom",
+          "x": 15,
+          "y": 100,
+          "z": -169
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 22,
+        "y": 100,
+        "z": -168
+      },
+      "case_id": "layout-vertical-none",
+      "category": "layout-mask",
+      "notes": "vertical top-face mask 0x00",
+      "placements": [
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 22,
+          "y": 100,
+          "z": -168
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 28,
+        "y": 100,
+        "z": -168
+      },
+      "case_id": "layout-vertical-top",
+      "category": "layout-mask",
+      "notes": "vertical top-face mask 0x01",
+      "placements": [
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 28,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 28,
+          "y": 100,
+          "z": -169
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 34,
+        "y": 100,
+        "z": -168
+      },
+      "case_id": "layout-vertical-right",
+      "category": "layout-mask",
+      "notes": "vertical top-face mask 0x04",
+      "placements": [
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 34,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 35,
+          "y": 100,
+          "z": -168
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 40,
+        "y": 100,
+        "z": -168
+      },
+      "case_id": "layout-vertical-bottom",
+      "category": "layout-mask",
+      "notes": "vertical top-face mask 0x10",
+      "placements": [
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 40,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 40,
+          "y": 100,
+          "z": -167
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 46,
+        "y": 100,
+        "z": -168
+      },
+      "case_id": "layout-vertical-left",
+      "category": "layout-mask",
+      "notes": "vertical top-face mask 0x40",
+      "placements": [
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 46,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 45,
+          "y": 100,
+          "z": -168
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 52,
+        "y": 100,
+        "z": -168
+      },
+      "case_id": "layout-vertical-top-right",
+      "category": "layout-mask",
+      "notes": "vertical top-face mask 0x05",
+      "placements": [
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 52,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 52,
+          "y": 100,
+          "z": -169
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 53,
+          "y": 100,
+          "z": -168
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 58,
+        "y": 100,
+        "z": -168
+      },
+      "case_id": "layout-vertical-top-bottom",
+      "category": "layout-mask",
+      "notes": "vertical top-face mask 0x11",
+      "placements": [
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 58,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 58,
+          "y": 100,
+          "z": -169
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 58,
+          "y": 100,
+          "z": -167
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 64,
+        "y": 100,
+        "z": -168
+      },
+      "case_id": "layout-vertical-left-right",
+      "category": "layout-mask",
+      "notes": "vertical top-face mask 0x44",
+      "placements": [
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 64,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 65,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 63,
+          "y": 100,
+          "z": -168
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 70,
+        "y": 100,
+        "z": -168
+      },
+      "case_id": "layout-vertical-cardinals",
+      "category": "layout-mask",
+      "notes": "vertical top-face mask 0x55",
+      "placements": [
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 70,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 70,
+          "y": 100,
+          "z": -169
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 71,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 70,
+          "y": 100,
+          "z": -167
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 69,
+          "y": 100,
+          "z": -168
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 76,
+        "y": 100,
+        "z": -168
+      },
+      "case_id": "layout-vertical-one-diagonal",
+      "category": "layout-mask",
+      "notes": "vertical top-face mask 0x57",
+      "placements": [
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 76,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 76,
+          "y": 100,
+          "z": -169
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 77,
+          "y": 100,
+          "z": -169
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 77,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 76,
+          "y": 100,
+          "z": -167
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 75,
+          "y": 100,
+          "z": -168
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 82,
+        "y": 100,
+        "z": -168
+      },
+      "case_id": "layout-vertical-mask-dd",
+      "category": "layout-mask",
+      "notes": "vertical top-face mask 0xdd",
+      "placements": [
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 82,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 82,
+          "y": 100,
+          "z": -169
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 83,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 83,
+          "y": 100,
+          "z": -167
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 82,
+          "y": 100,
+          "z": -167
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 81,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 81,
+          "y": 100,
+          "z": -169
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 88,
+        "y": 100,
+        "z": -168
+      },
+      "case_id": "layout-vertical-full-edge47",
+      "category": "layout-mask",
+      "notes": "vertical top-face mask 0x7f",
+      "placements": [
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 88,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 88,
+          "y": 100,
+          "z": -169
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 89,
+          "y": 100,
+          "z": -169
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 89,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 89,
+          "y": 100,
+          "z": -167
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 88,
+          "y": 100,
+          "z": -167
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 87,
+          "y": 100,
+          "z": -167
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 87,
+          "y": 100,
+          "z": -168
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 94,
+        "y": 100,
+        "z": -168
+      },
+      "case_id": "layout-vertical-full-edge46",
+      "category": "layout-mask",
+      "notes": "vertical top-face mask 0xfd",
+      "placements": [
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 94,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 94,
+          "y": 100,
+          "z": -169
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 95,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 95,
+          "y": 100,
+          "z": -167
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 94,
+          "y": 100,
+          "z": -167
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 93,
+          "y": 100,
+          "z": -167
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 93,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 93,
+          "y": 100,
+          "z": -169
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 100,
+        "y": 100,
+        "z": -168
+      },
+      "case_id": "layout-vertical-all",
+      "category": "layout-mask",
+      "notes": "vertical top-face mask 0xff",
+      "placements": [
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 100,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 100,
+          "y": 100,
+          "z": -169
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 101,
+          "y": 100,
+          "z": -169
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 101,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 101,
+          "y": 100,
+          "z": -167
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 100,
+          "y": 100,
+          "z": -167
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 99,
+          "y": 100,
+          "z": -167
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 99,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:obsidian_pillars_connecting",
+          "expected_route": "custom",
+          "x": 99,
+          "y": 100,
+          "z": -169
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 106,
+        "y": 100,
+        "z": -168
+      },
+      "case_id": "layout-simple-none",
+      "category": "layout-mask",
+      "notes": "simple top-face mask 0x00",
+      "placements": [
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 106,
+          "y": 100,
+          "z": -168
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 112,
+        "y": 100,
+        "z": -168
+      },
+      "case_id": "layout-simple-top",
+      "category": "layout-mask",
+      "notes": "simple top-face mask 0x01",
+      "placements": [
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 112,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 112,
+          "y": 100,
+          "z": -169
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 118,
+        "y": 100,
+        "z": -168
+      },
+      "case_id": "layout-simple-right",
+      "category": "layout-mask",
+      "notes": "simple top-face mask 0x04",
+      "placements": [
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 118,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 119,
+          "y": 100,
+          "z": -168
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 124,
+        "y": 100,
+        "z": -168
+      },
+      "case_id": "layout-simple-bottom",
+      "category": "layout-mask",
+      "notes": "simple top-face mask 0x10",
+      "placements": [
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 124,
+          "y": 100,
+          "z": -168
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 124,
+          "y": 100,
+          "z": -167
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 10,
+        "y": 100,
+        "z": -162
+      },
+      "case_id": "layout-simple-left",
+      "category": "layout-mask",
+      "notes": "simple top-face mask 0x40",
+      "placements": [
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 10,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 9,
+          "y": 100,
+          "z": -162
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 16,
+        "y": 100,
+        "z": -162
+      },
+      "case_id": "layout-simple-top-right",
+      "category": "layout-mask",
+      "notes": "simple top-face mask 0x05",
+      "placements": [
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 16,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 16,
+          "y": 100,
+          "z": -163
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 17,
+          "y": 100,
+          "z": -162
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 22,
+        "y": 100,
+        "z": -162
+      },
+      "case_id": "layout-simple-top-bottom",
+      "category": "layout-mask",
+      "notes": "simple top-face mask 0x11",
+      "placements": [
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 22,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 22,
+          "y": 100,
+          "z": -163
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 22,
+          "y": 100,
+          "z": -161
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 28,
+        "y": 100,
+        "z": -162
+      },
+      "case_id": "layout-simple-left-right",
+      "category": "layout-mask",
+      "notes": "simple top-face mask 0x44",
+      "placements": [
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 28,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 29,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 27,
+          "y": 100,
+          "z": -162
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 34,
+        "y": 100,
+        "z": -162
+      },
+      "case_id": "layout-simple-cardinals",
+      "category": "layout-mask",
+      "notes": "simple top-face mask 0x55",
+      "placements": [
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 34,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 34,
+          "y": 100,
+          "z": -163
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 35,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 34,
+          "y": 100,
+          "z": -161
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 33,
+          "y": 100,
+          "z": -162
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 40,
+        "y": 100,
+        "z": -162
+      },
+      "case_id": "layout-simple-one-diagonal",
+      "category": "layout-mask",
+      "notes": "simple top-face mask 0x57",
+      "placements": [
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 40,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 40,
+          "y": 100,
+          "z": -163
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 41,
+          "y": 100,
+          "z": -163
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 41,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 40,
+          "y": 100,
+          "z": -161
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 39,
+          "y": 100,
+          "z": -162
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 46,
+        "y": 100,
+        "z": -162
+      },
+      "case_id": "layout-simple-mask-dd",
+      "category": "layout-mask",
+      "notes": "simple top-face mask 0xdd",
+      "placements": [
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 46,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 46,
+          "y": 100,
+          "z": -163
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 47,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 47,
+          "y": 100,
+          "z": -161
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 46,
+          "y": 100,
+          "z": -161
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 45,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 45,
+          "y": 100,
+          "z": -163
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 52,
+        "y": 100,
+        "z": -162
+      },
+      "case_id": "layout-simple-full-edge47",
+      "category": "layout-mask",
+      "notes": "simple top-face mask 0x7f",
+      "placements": [
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 52,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 52,
+          "y": 100,
+          "z": -163
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 53,
+          "y": 100,
+          "z": -163
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 53,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 53,
+          "y": 100,
+          "z": -161
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 52,
+          "y": 100,
+          "z": -161
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 51,
+          "y": 100,
+          "z": -161
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 51,
+          "y": 100,
+          "z": -162
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 58,
+        "y": 100,
+        "z": -162
+      },
+      "case_id": "layout-simple-full-edge46",
+      "category": "layout-mask",
+      "notes": "simple top-face mask 0xfd",
+      "placements": [
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 58,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 58,
+          "y": 100,
+          "z": -163
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 59,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 59,
+          "y": 100,
+          "z": -161
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 58,
+          "y": 100,
+          "z": -161
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 57,
+          "y": 100,
+          "z": -161
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 57,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 57,
+          "y": 100,
+          "z": -163
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 64,
+        "y": 100,
+        "z": -162
+      },
+      "case_id": "layout-simple-all",
+      "category": "layout-mask",
+      "notes": "simple top-face mask 0xff",
+      "placements": [
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 64,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 64,
+          "y": 100,
+          "z": -163
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 65,
+          "y": 100,
+          "z": -163
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 65,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 65,
+          "y": 100,
+          "z": -161
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 64,
+          "y": 100,
+          "z": -161
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 63,
+          "y": 100,
+          "z": -161
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 63,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 63,
+          "y": 100,
+          "z": -163
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 70,
+        "y": 100,
+        "z": -162
+      },
+      "case_id": "layout-plain-axis-end",
+      "category": "layout-mask",
+      "notes": "plain end texture; no connected-sheet selection",
+      "placements": [
+        {
+          "block": "rechiseled:blue_ice_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 70,
+          "y": 100,
+          "z": -162
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 76,
+        "y": 100,
+        "z": -162
+      },
+      "case_id": "slab-bottom-waterlogged-false",
+      "category": "slab-state",
+      "notes": "exact slab topology and persisted waterlogged state",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_slab_connecting[type=bottom,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 76,
+          "y": 100,
+          "z": -162
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 82,
+        "y": 100,
+        "z": -162
+      },
+      "case_id": "slab-bottom-waterlogged-true",
+      "category": "slab-state",
+      "notes": "exact slab topology and persisted waterlogged state",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_slab_connecting[type=bottom,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 82,
+          "y": 100,
+          "z": -162
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 88,
+        "y": 100,
+        "z": -162
+      },
+      "case_id": "slab-double-waterlogged-false",
+      "category": "slab-state",
+      "notes": "exact slab topology and persisted waterlogged state",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_slab_connecting[type=double,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 88,
+          "y": 100,
+          "z": -162
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 94,
+        "y": 100,
+        "z": -162
+      },
+      "case_id": "slab-double-waterlogged-true",
+      "category": "slab-state",
+      "notes": "exact slab topology and persisted waterlogged state",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_slab_connecting[type=double,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 94,
+          "y": 100,
+          "z": -162
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 100,
+        "y": 100,
+        "z": -162
+      },
+      "case_id": "slab-top-waterlogged-false",
+      "category": "slab-state",
+      "notes": "exact slab topology and persisted waterlogged state",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_slab_connecting[type=top,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 100,
+          "y": 100,
+          "z": -162
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 106,
+        "y": 100,
+        "z": -162
+      },
+      "case_id": "slab-top-waterlogged-true",
+      "category": "slab-state",
+      "notes": "exact slab topology and persisted waterlogged state",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_slab_connecting[type=top,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 106,
+          "y": 100,
+          "z": -162
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 112,
+        "y": 100,
+        "z": -162
+      },
+      "case_id": "pieced-slab-bottom-connected",
+      "category": "pieced-partial",
+      "notes": "connected partial side UV crosses the global PIECED seam",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_slab_connecting[type=bottom,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 112,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_slab_connecting[type=bottom,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 113,
+          "y": 100,
+          "z": -162
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 118,
+        "y": 100,
+        "z": -162
+      },
+      "case_id": "pieced-slab-top-connected",
+      "category": "pieced-partial",
+      "notes": "connected partial side UV crosses the global PIECED seam",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_slab_connecting[type=top,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 118,
+          "y": 100,
+          "z": -162
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_slab_connecting[type=top,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 119,
+          "y": 100,
+          "z": -162
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 124,
+        "y": 100,
+        "z": -162
+      },
+      "case_id": "stairs-east-bottom-inner_left-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=inner_left,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 124,
+          "y": 100,
+          "z": -162
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 10,
+        "y": 100,
+        "z": -156
+      },
+      "case_id": "stairs-east-bottom-inner_left-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=inner_left,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 10,
+          "y": 100,
+          "z": -156
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 16,
+        "y": 100,
+        "z": -156
+      },
+      "case_id": "stairs-east-bottom-inner_right-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=inner_right,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 16,
+          "y": 100,
+          "z": -156
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 22,
+        "y": 100,
+        "z": -156
+      },
+      "case_id": "stairs-east-bottom-inner_right-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=inner_right,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 22,
+          "y": 100,
+          "z": -156
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 28,
+        "y": 100,
+        "z": -156
+      },
+      "case_id": "stairs-east-bottom-outer_left-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=outer_left,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 28,
+          "y": 100,
+          "z": -156
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 34,
+        "y": 100,
+        "z": -156
+      },
+      "case_id": "stairs-east-bottom-outer_left-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=outer_left,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 34,
+          "y": 100,
+          "z": -156
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 40,
+        "y": 100,
+        "z": -156
+      },
+      "case_id": "stairs-east-bottom-outer_right-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=outer_right,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 40,
+          "y": 100,
+          "z": -156
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 46,
+        "y": 100,
+        "z": -156
+      },
+      "case_id": "stairs-east-bottom-outer_right-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=outer_right,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 46,
+          "y": 100,
+          "z": -156
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 52,
+        "y": 100,
+        "z": -156
+      },
+      "case_id": "stairs-east-bottom-straight-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 52,
+          "y": 100,
+          "z": -156
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 58,
+        "y": 100,
+        "z": -156
+      },
+      "case_id": "stairs-east-bottom-straight-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 58,
+          "y": 100,
+          "z": -156
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 64,
+        "y": 100,
+        "z": -156
+      },
+      "case_id": "stairs-east-top-inner_left-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=inner_left,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 64,
+          "y": 100,
+          "z": -156
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 70,
+        "y": 100,
+        "z": -156
+      },
+      "case_id": "stairs-east-top-inner_left-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=inner_left,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 70,
+          "y": 100,
+          "z": -156
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 76,
+        "y": 100,
+        "z": -156
+      },
+      "case_id": "stairs-east-top-inner_right-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=inner_right,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 76,
+          "y": 100,
+          "z": -156
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 82,
+        "y": 100,
+        "z": -156
+      },
+      "case_id": "stairs-east-top-inner_right-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=inner_right,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 82,
+          "y": 100,
+          "z": -156
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 88,
+        "y": 100,
+        "z": -156
+      },
+      "case_id": "stairs-east-top-outer_left-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=outer_left,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 88,
+          "y": 100,
+          "z": -156
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 94,
+        "y": 100,
+        "z": -156
+      },
+      "case_id": "stairs-east-top-outer_left-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=outer_left,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 94,
+          "y": 100,
+          "z": -156
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 100,
+        "y": 100,
+        "z": -156
+      },
+      "case_id": "stairs-east-top-outer_right-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=outer_right,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 100,
+          "y": 100,
+          "z": -156
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 106,
+        "y": 100,
+        "z": -156
+      },
+      "case_id": "stairs-east-top-outer_right-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=outer_right,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 106,
+          "y": 100,
+          "z": -156
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 112,
+        "y": 100,
+        "z": -156
+      },
+      "case_id": "stairs-east-top-straight-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=straight,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 112,
+          "y": 100,
+          "z": -156
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 118,
+        "y": 100,
+        "z": -156
+      },
+      "case_id": "stairs-east-top-straight-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=straight,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 118,
+          "y": 100,
+          "z": -156
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 124,
+        "y": 100,
+        "z": -156
+      },
+      "case_id": "stairs-north-bottom-inner_left-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=inner_left,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 124,
+          "y": 100,
+          "z": -156
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 10,
+        "y": 100,
+        "z": -150
+      },
+      "case_id": "stairs-north-bottom-inner_left-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=inner_left,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 10,
+          "y": 100,
+          "z": -150
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 16,
+        "y": 100,
+        "z": -150
+      },
+      "case_id": "stairs-north-bottom-inner_right-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=inner_right,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 16,
+          "y": 100,
+          "z": -150
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 22,
+        "y": 100,
+        "z": -150
+      },
+      "case_id": "stairs-north-bottom-inner_right-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=inner_right,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 22,
+          "y": 100,
+          "z": -150
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 28,
+        "y": 100,
+        "z": -150
+      },
+      "case_id": "stairs-north-bottom-outer_left-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=outer_left,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 28,
+          "y": 100,
+          "z": -150
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 34,
+        "y": 100,
+        "z": -150
+      },
+      "case_id": "stairs-north-bottom-outer_left-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=outer_left,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 34,
+          "y": 100,
+          "z": -150
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 40,
+        "y": 100,
+        "z": -150
+      },
+      "case_id": "stairs-north-bottom-outer_right-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=outer_right,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 40,
+          "y": 100,
+          "z": -150
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 46,
+        "y": 100,
+        "z": -150
+      },
+      "case_id": "stairs-north-bottom-outer_right-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=outer_right,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 46,
+          "y": 100,
+          "z": -150
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 52,
+        "y": 100,
+        "z": -150
+      },
+      "case_id": "stairs-north-bottom-straight-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 52,
+          "y": 100,
+          "z": -150
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 58,
+        "y": 100,
+        "z": -150
+      },
+      "case_id": "stairs-north-bottom-straight-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 58,
+          "y": 100,
+          "z": -150
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 64,
+        "y": 100,
+        "z": -150
+      },
+      "case_id": "stairs-north-top-inner_left-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=inner_left,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 64,
+          "y": 100,
+          "z": -150
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 70,
+        "y": 100,
+        "z": -150
+      },
+      "case_id": "stairs-north-top-inner_left-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=inner_left,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 70,
+          "y": 100,
+          "z": -150
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 76,
+        "y": 100,
+        "z": -150
+      },
+      "case_id": "stairs-north-top-inner_right-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=inner_right,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 76,
+          "y": 100,
+          "z": -150
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 82,
+        "y": 100,
+        "z": -150
+      },
+      "case_id": "stairs-north-top-inner_right-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=inner_right,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 82,
+          "y": 100,
+          "z": -150
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 88,
+        "y": 100,
+        "z": -150
+      },
+      "case_id": "stairs-north-top-outer_left-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=outer_left,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 88,
+          "y": 100,
+          "z": -150
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 94,
+        "y": 100,
+        "z": -150
+      },
+      "case_id": "stairs-north-top-outer_left-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=outer_left,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 94,
+          "y": 100,
+          "z": -150
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 100,
+        "y": 100,
+        "z": -150
+      },
+      "case_id": "stairs-north-top-outer_right-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=outer_right,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 100,
+          "y": 100,
+          "z": -150
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 106,
+        "y": 100,
+        "z": -150
+      },
+      "case_id": "stairs-north-top-outer_right-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=outer_right,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 106,
+          "y": 100,
+          "z": -150
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 112,
+        "y": 100,
+        "z": -150
+      },
+      "case_id": "stairs-north-top-straight-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=straight,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 112,
+          "y": 100,
+          "z": -150
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 118,
+        "y": 100,
+        "z": -150
+      },
+      "case_id": "stairs-north-top-straight-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=straight,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 118,
+          "y": 100,
+          "z": -150
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 124,
+        "y": 100,
+        "z": -150
+      },
+      "case_id": "stairs-south-bottom-inner_left-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=inner_left,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 124,
+          "y": 100,
+          "z": -150
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 10,
+        "y": 100,
+        "z": -144
+      },
+      "case_id": "stairs-south-bottom-inner_left-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=inner_left,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 10,
+          "y": 100,
+          "z": -144
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 16,
+        "y": 100,
+        "z": -144
+      },
+      "case_id": "stairs-south-bottom-inner_right-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=inner_right,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 16,
+          "y": 100,
+          "z": -144
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 22,
+        "y": 100,
+        "z": -144
+      },
+      "case_id": "stairs-south-bottom-inner_right-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=inner_right,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 22,
+          "y": 100,
+          "z": -144
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 28,
+        "y": 100,
+        "z": -144
+      },
+      "case_id": "stairs-south-bottom-outer_left-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=outer_left,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 28,
+          "y": 100,
+          "z": -144
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 34,
+        "y": 100,
+        "z": -144
+      },
+      "case_id": "stairs-south-bottom-outer_left-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=outer_left,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 34,
+          "y": 100,
+          "z": -144
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 40,
+        "y": 100,
+        "z": -144
+      },
+      "case_id": "stairs-south-bottom-outer_right-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=outer_right,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 40,
+          "y": 100,
+          "z": -144
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 46,
+        "y": 100,
+        "z": -144
+      },
+      "case_id": "stairs-south-bottom-outer_right-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=outer_right,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 46,
+          "y": 100,
+          "z": -144
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 52,
+        "y": 100,
+        "z": -144
+      },
+      "case_id": "stairs-south-bottom-straight-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 52,
+          "y": 100,
+          "z": -144
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 58,
+        "y": 100,
+        "z": -144
+      },
+      "case_id": "stairs-south-bottom-straight-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 58,
+          "y": 100,
+          "z": -144
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 64,
+        "y": 100,
+        "z": -144
+      },
+      "case_id": "stairs-south-top-inner_left-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=inner_left,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 64,
+          "y": 100,
+          "z": -144
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 70,
+        "y": 100,
+        "z": -144
+      },
+      "case_id": "stairs-south-top-inner_left-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=inner_left,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 70,
+          "y": 100,
+          "z": -144
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 76,
+        "y": 100,
+        "z": -144
+      },
+      "case_id": "stairs-south-top-inner_right-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=inner_right,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 76,
+          "y": 100,
+          "z": -144
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 82,
+        "y": 100,
+        "z": -144
+      },
+      "case_id": "stairs-south-top-inner_right-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=inner_right,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 82,
+          "y": 100,
+          "z": -144
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 88,
+        "y": 100,
+        "z": -144
+      },
+      "case_id": "stairs-south-top-outer_left-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=outer_left,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 88,
+          "y": 100,
+          "z": -144
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 94,
+        "y": 100,
+        "z": -144
+      },
+      "case_id": "stairs-south-top-outer_left-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=outer_left,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 94,
+          "y": 100,
+          "z": -144
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 100,
+        "y": 100,
+        "z": -144
+      },
+      "case_id": "stairs-south-top-outer_right-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=outer_right,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 100,
+          "y": 100,
+          "z": -144
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 106,
+        "y": 100,
+        "z": -144
+      },
+      "case_id": "stairs-south-top-outer_right-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=outer_right,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 106,
+          "y": 100,
+          "z": -144
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 112,
+        "y": 100,
+        "z": -144
+      },
+      "case_id": "stairs-south-top-straight-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=straight,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 112,
+          "y": 100,
+          "z": -144
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 118,
+        "y": 100,
+        "z": -144
+      },
+      "case_id": "stairs-south-top-straight-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=straight,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 118,
+          "y": 100,
+          "z": -144
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 124,
+        "y": 100,
+        "z": -144
+      },
+      "case_id": "stairs-west-bottom-inner_left-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=inner_left,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 124,
+          "y": 100,
+          "z": -144
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 10,
+        "y": 100,
+        "z": -138
+      },
+      "case_id": "stairs-west-bottom-inner_left-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=inner_left,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 10,
+          "y": 100,
+          "z": -138
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 16,
+        "y": 100,
+        "z": -138
+      },
+      "case_id": "stairs-west-bottom-inner_right-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=inner_right,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 16,
+          "y": 100,
+          "z": -138
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 22,
+        "y": 100,
+        "z": -138
+      },
+      "case_id": "stairs-west-bottom-inner_right-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=inner_right,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 22,
+          "y": 100,
+          "z": -138
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 28,
+        "y": 100,
+        "z": -138
+      },
+      "case_id": "stairs-west-bottom-outer_left-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=outer_left,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 28,
+          "y": 100,
+          "z": -138
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 34,
+        "y": 100,
+        "z": -138
+      },
+      "case_id": "stairs-west-bottom-outer_left-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=outer_left,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 34,
+          "y": 100,
+          "z": -138
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 40,
+        "y": 100,
+        "z": -138
+      },
+      "case_id": "stairs-west-bottom-outer_right-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=outer_right,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 40,
+          "y": 100,
+          "z": -138
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 46,
+        "y": 100,
+        "z": -138
+      },
+      "case_id": "stairs-west-bottom-outer_right-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=outer_right,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 46,
+          "y": 100,
+          "z": -138
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 52,
+        "y": 100,
+        "z": -138
+      },
+      "case_id": "stairs-west-bottom-straight-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=straight,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 52,
+          "y": 100,
+          "z": -138
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 58,
+        "y": 100,
+        "z": -138
+      },
+      "case_id": "stairs-west-bottom-straight-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=straight,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 58,
+          "y": 100,
+          "z": -138
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 64,
+        "y": 100,
+        "z": -138
+      },
+      "case_id": "stairs-west-top-inner_left-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=inner_left,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 64,
+          "y": 100,
+          "z": -138
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 70,
+        "y": 100,
+        "z": -138
+      },
+      "case_id": "stairs-west-top-inner_left-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=inner_left,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 70,
+          "y": 100,
+          "z": -138
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 76,
+        "y": 100,
+        "z": -138
+      },
+      "case_id": "stairs-west-top-inner_right-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=inner_right,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 76,
+          "y": 100,
+          "z": -138
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 82,
+        "y": 100,
+        "z": -138
+      },
+      "case_id": "stairs-west-top-inner_right-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=inner_right,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 82,
+          "y": 100,
+          "z": -138
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 88,
+        "y": 100,
+        "z": -138
+      },
+      "case_id": "stairs-west-top-outer_left-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=outer_left,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 88,
+          "y": 100,
+          "z": -138
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 94,
+        "y": 100,
+        "z": -138
+      },
+      "case_id": "stairs-west-top-outer_left-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=outer_left,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 94,
+          "y": 100,
+          "z": -138
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 100,
+        "y": 100,
+        "z": -138
+      },
+      "case_id": "stairs-west-top-outer_right-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=outer_right,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 100,
+          "y": 100,
+          "z": -138
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 106,
+        "y": 100,
+        "z": -138
+      },
+      "case_id": "stairs-west-top-outer_right-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=outer_right,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 106,
+          "y": 100,
+          "z": -138
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 112,
+        "y": 100,
+        "z": -138
+      },
+      "case_id": "stairs-west-top-straight-waterlogged-false",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=straight,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 112,
+          "y": 100,
+          "z": -138
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 118,
+        "y": 100,
+        "z": -138
+      },
+      "case_id": "stairs-west-top-straight-waterlogged-true",
+      "category": "stairs-state",
+      "notes": "all 80 legal topology/rotation/half/waterlogged states",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=straight,waterlogged=true]",
+          "expected_route": "custom",
+          "x": 118,
+          "y": 100,
+          "z": -138
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 124,
+        "y": 100,
+        "z": -138
+      },
+      "case_id": "pieced-stair-connected",
+      "category": "pieced-partial",
+      "notes": "connected stair partial UV and inner topology take PIECED split path",
+      "placements": [
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=inner_left,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 124,
+          "y": 100,
+          "z": -138
+        },
+        {
+          "block": "rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=inner_left,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 125,
+          "y": 100,
+          "z": -138
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 10,
+        "y": 100,
+        "z": -132
+      },
+      "case_id": "axis-amethyst_block_pillar_connecting",
+      "category": "axis-state",
+      "notes": "all x/y/z pillar transforms and per-face mixed layouts",
+      "placements": [
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=x]",
+          "expected_route": "custom",
+          "x": 8,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 10,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=z]",
+          "expected_route": "custom",
+          "x": 12,
+          "y": 100,
+          "z": -132
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 16,
+        "y": 100,
+        "z": -132
+      },
+      "case_id": "axis-blue_ice_pillar_connecting",
+      "category": "axis-state",
+      "notes": "all x/y/z pillar transforms and per-face mixed layouts",
+      "placements": [
+        {
+          "block": "rechiseled:blue_ice_pillar_connecting[axis=x]",
+          "expected_route": "custom",
+          "x": 14,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:blue_ice_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 16,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:blue_ice_pillar_connecting[axis=z]",
+          "expected_route": "custom",
+          "x": 18,
+          "y": 100,
+          "z": -132
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 22,
+        "y": 100,
+        "z": -132
+      },
+      "case_id": "axis-bone_block_connecting_connecting",
+      "category": "axis-state",
+      "notes": "all x/y/z pillar transforms and per-face mixed layouts",
+      "placements": [
+        {
+          "block": "rechiseled:bone_block_connecting_connecting[axis=x]",
+          "expected_route": "custom",
+          "x": 20,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:bone_block_connecting_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 22,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:bone_block_connecting_connecting[axis=z]",
+          "expected_route": "custom",
+          "x": 24,
+          "y": 100,
+          "z": -132
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 28,
+        "y": 100,
+        "z": -132
+      },
+      "case_id": "axis-bone_block_pillar_connecting",
+      "category": "axis-state",
+      "notes": "all x/y/z pillar transforms and per-face mixed layouts",
+      "placements": [
+        {
+          "block": "rechiseled:bone_block_pillar_connecting[axis=x]",
+          "expected_route": "custom",
+          "x": 26,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:bone_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 28,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:bone_block_pillar_connecting[axis=z]",
+          "expected_route": "custom",
+          "x": 30,
+          "y": 100,
+          "z": -132
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 34,
+        "y": 100,
+        "z": -132
+      },
+      "case_id": "axis-coal_block_pillar_connecting",
+      "category": "axis-state",
+      "notes": "all x/y/z pillar transforms and per-face mixed layouts",
+      "placements": [
+        {
+          "block": "rechiseled:coal_block_pillar_connecting[axis=x]",
+          "expected_route": "custom",
+          "x": 32,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:coal_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 34,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:coal_block_pillar_connecting[axis=z]",
+          "expected_route": "custom",
+          "x": 36,
+          "y": 100,
+          "z": -132
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 40,
+        "y": 100,
+        "z": -132
+      },
+      "case_id": "axis-cobbled_deepslate_pillar_connecting",
+      "category": "axis-state",
+      "notes": "all x/y/z pillar transforms and per-face mixed layouts",
+      "placements": [
+        {
+          "block": "rechiseled:cobbled_deepslate_pillar_connecting[axis=x]",
+          "expected_route": "custom",
+          "x": 38,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:cobbled_deepslate_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 40,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:cobbled_deepslate_pillar_connecting[axis=z]",
+          "expected_route": "custom",
+          "x": 42,
+          "y": 100,
+          "z": -132
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 46,
+        "y": 100,
+        "z": -132
+      },
+      "case_id": "axis-cobblestone_pillar_connecting",
+      "category": "axis-state",
+      "notes": "all x/y/z pillar transforms and per-face mixed layouts",
+      "placements": [
+        {
+          "block": "rechiseled:cobblestone_pillar_connecting[axis=x]",
+          "expected_route": "custom",
+          "x": 44,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:cobblestone_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 46,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:cobblestone_pillar_connecting[axis=z]",
+          "expected_route": "custom",
+          "x": 48,
+          "y": 100,
+          "z": -132
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 52,
+        "y": 100,
+        "z": -132
+      },
+      "case_id": "axis-copper_block_pillar_connecting",
+      "category": "axis-state",
+      "notes": "all x/y/z pillar transforms and per-face mixed layouts",
+      "placements": [
+        {
+          "block": "rechiseled:copper_block_pillar_connecting[axis=x]",
+          "expected_route": "custom",
+          "x": 50,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:copper_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 52,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:copper_block_pillar_connecting[axis=z]",
+          "expected_route": "custom",
+          "x": 54,
+          "y": 100,
+          "z": -132
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 58,
+        "y": 100,
+        "z": -132
+      },
+      "case_id": "axis-emerald_block_pillar_connecting",
+      "category": "axis-state",
+      "notes": "all x/y/z pillar transforms and per-face mixed layouts",
+      "placements": [
+        {
+          "block": "rechiseled:emerald_block_pillar_connecting[axis=x]",
+          "expected_route": "custom",
+          "x": 56,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:emerald_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 58,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:emerald_block_pillar_connecting[axis=z]",
+          "expected_route": "custom",
+          "x": 60,
+          "y": 100,
+          "z": -132
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 64,
+        "y": 100,
+        "z": -132
+      },
+      "case_id": "axis-lapis_block_pillar_connecting",
+      "category": "axis-state",
+      "notes": "all x/y/z pillar transforms and per-face mixed layouts",
+      "placements": [
+        {
+          "block": "rechiseled:lapis_block_pillar_connecting[axis=x]",
+          "expected_route": "custom",
+          "x": 62,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:lapis_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 64,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:lapis_block_pillar_connecting[axis=z]",
+          "expected_route": "custom",
+          "x": 66,
+          "y": 100,
+          "z": -132
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 70,
+        "y": 100,
+        "z": -132
+      },
+      "case_id": "axis-netherite_block_pillar_connecting",
+      "category": "axis-state",
+      "notes": "all x/y/z pillar transforms and per-face mixed layouts",
+      "placements": [
+        {
+          "block": "rechiseled:netherite_block_pillar_connecting[axis=x]",
+          "expected_route": "custom",
+          "x": 68,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:netherite_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 70,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:netherite_block_pillar_connecting[axis=z]",
+          "expected_route": "custom",
+          "x": 72,
+          "y": 100,
+          "z": -132
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 76,
+        "y": 100,
+        "z": -132
+      },
+      "case_id": "axis-redstone_block_pillar_connecting",
+      "category": "axis-state",
+      "notes": "all x/y/z pillar transforms and per-face mixed layouts",
+      "placements": [
+        {
+          "block": "rechiseled:redstone_block_pillar_connecting[axis=x]",
+          "expected_route": "custom",
+          "x": 74,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:redstone_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 76,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:redstone_block_pillar_connecting[axis=z]",
+          "expected_route": "custom",
+          "x": 78,
+          "y": 100,
+          "z": -132
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 82,
+        "y": 100,
+        "z": -132
+      },
+      "case_id": "axis-x-same-state-continuity",
+      "category": "axis-connection",
+      "notes": "horizontal child is_same_state x-to-x continuity",
+      "placements": [
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=x]",
+          "expected_route": "custom",
+          "x": 82,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=x]",
+          "expected_route": "custom",
+          "x": 83,
+          "y": 100,
+          "z": -132
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 88,
+        "y": 100,
+        "z": -132
+      },
+      "case_id": "axis-z-same-state-continuity",
+      "category": "axis-connection",
+      "notes": "horizontal child is_same_state z-to-z continuity",
+      "placements": [
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=z]",
+          "expected_route": "custom",
+          "x": 88,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=z]",
+          "expected_route": "custom",
+          "x": 88,
+          "y": 100,
+          "z": -131
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 94,
+        "y": 100,
+        "z": -132
+      },
+      "case_id": "axis-state-mismatch",
+      "category": "axis-connection",
+      "notes": "x/y/z are deliberately not the same persisted state",
+      "placements": [
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=x]",
+          "expected_route": "custom",
+          "x": 93,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 94,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=z]",
+          "expected_route": "custom",
+          "x": 95,
+          "y": 100,
+          "z": -132
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 100,
+        "y": 100,
+        "z": -132
+      },
+      "case_id": "axis-y-shape-interconnection",
+      "category": "axis-connection",
+      "notes": "axis=y base predicate interconnects matching slab and stair family",
+      "placements": [
+        {
+          "block": "rechiseled:amethyst_block_pillar_connecting[axis=y]",
+          "expected_route": "custom",
+          "x": 100,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_slab_connecting[type=bottom,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 101,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:amethyst_block_pillar_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 100,
+          "y": 100,
+          "z": -131
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 106,
+        "y": 100,
+        "z": -132
+      },
+      "case_id": "glowstone-full-connected",
+      "category": "glowstone",
+      "notes": "ordinary installed block light; no invented emissive material",
+      "placements": [
+        {
+          "block": "rechiseled:glowstone_bricks_connecting",
+          "expected_route": "custom",
+          "x": 105,
+          "y": 100,
+          "z": -133
+        },
+        {
+          "block": "rechiseled:glowstone_bricks_connecting",
+          "expected_route": "custom",
+          "x": 106,
+          "y": 100,
+          "z": -133
+        },
+        {
+          "block": "rechiseled:glowstone_bricks_connecting",
+          "expected_route": "custom",
+          "x": 107,
+          "y": 100,
+          "z": -133
+        },
+        {
+          "block": "rechiseled:glowstone_bricks_connecting",
+          "expected_route": "custom",
+          "x": 105,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:glowstone_bricks_connecting",
+          "expected_route": "custom",
+          "x": 106,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:glowstone_bricks_connecting",
+          "expected_route": "custom",
+          "x": 107,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:glowstone_bricks_connecting",
+          "expected_route": "custom",
+          "x": 105,
+          "y": 100,
+          "z": -131
+        },
+        {
+          "block": "rechiseled:glowstone_bricks_connecting",
+          "expected_route": "custom",
+          "x": 106,
+          "y": 100,
+          "z": -131
+        },
+        {
+          "block": "rechiseled:glowstone_bricks_connecting",
+          "expected_route": "custom",
+          "x": 107,
+          "y": 100,
+          "z": -131
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 112,
+        "y": 100,
+        "z": -132
+      },
+      "case_id": "glowstone-slab-connected",
+      "category": "glowstone",
+      "notes": "connected glowstone slab geometry and ordinary element light",
+      "placements": [
+        {
+          "block": "rechiseled:glowstone_bricks_slab_connecting[type=bottom,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 111,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:glowstone_bricks_slab_connecting[type=bottom,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 112,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:glowstone_bricks_slab_connecting[type=bottom,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 113,
+          "y": 100,
+          "z": -132
+        }
+      ]
+    },
+    {
+      "anchor": {
+        "x": 118,
+        "y": 100,
+        "z": -132
+      },
+      "case_id": "glowstone-stair-connected",
+      "category": "glowstone",
+      "notes": "connected glowstone stair silhouettes and ordinary element light",
+      "placements": [
+        {
+          "block": "rechiseled:glowstone_bricks_stairs_connecting[facing=east,half=bottom,shape=inner_left,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 118,
+          "y": 100,
+          "z": -132
+        },
+        {
+          "block": "rechiseled:glowstone_bricks_stairs_connecting[facing=east,half=bottom,shape=outer_right,waterlogged=false]",
+          "expected_route": "custom",
+          "x": 119,
+          "y": 100,
+          "z": -132
+        }
+      ]
+    }
+  ],
+  "verified_placement_count": 2203
+}
