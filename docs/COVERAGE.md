@@ -60,8 +60,20 @@ the 68 non-straight stair targets has a non-overlapping same-half perpendicular
 support placed first, and both target and final straight support states are
 verified.
 
-No runtime, rendered-map, restart, client-connection, browser, or owner visual
-result is claimed until that exact staging gate is performed and recorded.
+The exact owner-accepted candidate at commit
+`382ad2c3178026d727a3e3785a2674d3b87b35f5` completed the disposable staging
+gate on 2026-08-13. Its 1,924-case gallery produced all 2,271 expected
+placements with zero verification failures, rendered successfully, and
+remained valid after a clean same-pod restart without rebuilding. The
+645,622-byte production JAR has SHA-256
+`39793187b97b504e085664a23eb5e54961dfdeac1e9ccf57e1bd701bd90c0242`;
+the corrected 27,563-byte gallery has SHA-256
+`9d749c9e98775379e52645d598395dc94a37109808df7ac99633ee8f24e09201`.
+The canonical 176,116-byte raw render audit has SHA-256
+`3a269f762485cdce3995a7344935f439f031f07b3f939ee487d4e1bd49e8537c`.
+The exact BlueMap view passed the agent browser sanity check and the owner
+visually accepted it. No client-connection or production-world result is
+claimed, and publication remains pending.
 
 ## Exclusions
 

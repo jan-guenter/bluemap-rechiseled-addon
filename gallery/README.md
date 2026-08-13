@@ -31,5 +31,12 @@ The scoreboard counters persist across a same-world restart. Require generated
 `#failures`. The datapack bundles only first-party IDs, states, coordinates,
 commands, and metadata—no Rechiseled or Fusion assets.
 
-Status: generated/static only. No server placement, render, restart, browser, or
-owner visual result has been recorded for this tranche.
+Status: owner-accepted release candidate, publication pending. On 2026-08-13,
+the corrected 27,563-byte gallery archive (SHA-256
+`9d749c9e98775379e52645d598395dc94a37109808df7ac99633ee8f24e09201`)
+produced all 1,924 logical cases and verified all 2,271 placements with zero
+failures. The exact production JAR and bounded render passed startup, a clean
+same-pod restart without gallery rebuilding, the canonical raw render audit,
+and the agent browser sanity check before the owner visually accepted the
+result. See [`../docs/STAGING.md`](../docs/STAGING.md) for the exact candidate
+and evidence identities.

@@ -14,3 +14,8 @@
 - Add a deterministic 1,924-case / 2,271-placement gallery, stable support
   topology for all 68 non-straight stair targets, and exhaustive focused
   selector, schema, artifact, state, and provenance tests.
+- Record the 2026-08-13 disposable staging pass for commit
+  `382ad2c3178026d727a3e3785a2674d3b87b35f5`: exact CI production JAR,
+  corrected gallery, 2,271-placement verification, clean same-pod restart,
+  canonical raw render audit, browser sanity check, and owner visual
+  acceptance. Publication remains pending.

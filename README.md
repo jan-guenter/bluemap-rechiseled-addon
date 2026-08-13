@@ -2,8 +2,9 @@
 
 This standalone MIT BlueMap add-on renders the connected models installed by
 Rechiseled 1.2.5 and Fusion 1.3.12 on the exact All the Mons 1.2.0 baseline.
-It is an unreleased first tranche; no runtime or visual acceptance is claimed
-yet.
+The `0.1.0-alpha.1` release candidate is runtime-gated and owner visually
+accepted; publication remains pending. The accepted evidence is recorded in
+[`docs/STAGING.md`](docs/STAGING.md).
 
 ## Exact contract
 
@@ -80,6 +81,12 @@ gradle --no-daemon \
 Pull-request CI performs the authoritative clean build, production/sources JAR
 boundary audit, POM generation, and artifact verification once. See
 [`docs/RELEASING.md`](docs/RELEASING.md).
+
+The owner-accepted candidate is commit
+`382ad2c3178026d727a3e3785a2674d3b87b35f5`. Its 645,622-byte production JAR
+has SHA-256
+`39793187b97b504e085664a23eb5e54961dfdeac1e9ccf57e1bd701bd90c0242`.
+This identity is a reviewed release candidate, not yet a published release.
 
 ## Gallery
 
