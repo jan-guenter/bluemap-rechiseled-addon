@@ -4119,19 +4119,35 @@ execute unless block 118 100 -162 rechiseled:acacia_planks_beams_slab_connecting
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 119 100 -162 rechiseled:acacia_planks_beams_slab_connecting[type=top,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 123 100 -162 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 124 100 -162 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=inner_left,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 9 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 10 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=inner_left,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 15 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 16 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=inner_right,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 21 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 22 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=inner_right,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 29 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 28 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=outer_left,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 35 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 34 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=outer_left,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 41 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 40 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=outer_right,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 47 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 46 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=outer_right,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
@@ -4139,19 +4155,35 @@ execute unless block 52 100 -156 rechiseled:acacia_planks_beams_stairs_connectin
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 58 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 63 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 64 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=inner_left,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 69 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 70 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=inner_left,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 75 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 76 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=inner_right,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 81 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 82 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=inner_right,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 89 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 88 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=outer_left,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 95 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 94 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=outer_left,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 101 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 100 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=outer_right,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 107 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 106 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=outer_right,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
@@ -4159,19 +4191,35 @@ execute unless block 112 100 -156 rechiseled:acacia_planks_beams_stairs_connecti
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 118 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 124 100 -155 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 124 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=inner_left,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 10 100 -149 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 10 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=inner_left,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 16 100 -149 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 16 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=inner_right,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 22 100 -149 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 22 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=inner_right,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 28 100 -151 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 28 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=outer_left,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 34 100 -151 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 34 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=outer_left,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 40 100 -151 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 40 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=outer_right,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 46 100 -151 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 46 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=outer_right,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
@@ -4179,19 +4227,35 @@ execute unless block 52 100 -150 rechiseled:acacia_planks_beams_stairs_connectin
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 58 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 64 100 -149 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 64 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=inner_left,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 70 100 -149 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 70 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=inner_left,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 76 100 -149 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 76 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=inner_right,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 82 100 -149 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 82 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=inner_right,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 88 100 -151 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 88 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=outer_left,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 94 100 -151 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 94 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=outer_left,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 100 100 -151 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 100 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=outer_right,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 106 100 -151 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 106 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=outer_right,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
@@ -4199,19 +4263,35 @@ execute unless block 112 100 -150 rechiseled:acacia_planks_beams_stairs_connecti
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 118 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 124 100 -151 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 124 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=inner_left,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 10 100 -145 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 10 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=inner_left,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 16 100 -145 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 16 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=inner_right,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 22 100 -145 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 22 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=inner_right,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 28 100 -143 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 28 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=outer_left,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 34 100 -143 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 34 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=outer_left,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 40 100 -143 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 40 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=outer_right,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 46 100 -143 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 46 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=outer_right,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
@@ -4219,19 +4299,35 @@ execute unless block 52 100 -144 rechiseled:acacia_planks_beams_stairs_connectin
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 58 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 64 100 -145 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 64 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=inner_left,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 70 100 -145 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 70 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=inner_left,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 76 100 -145 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 76 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=inner_right,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 82 100 -145 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 82 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=inner_right,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 88 100 -143 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 88 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=outer_left,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 94 100 -143 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 94 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=outer_left,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 100 100 -143 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 100 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=outer_right,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 106 100 -143 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 106 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=outer_right,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
@@ -4239,19 +4335,35 @@ execute unless block 112 100 -144 rechiseled:acacia_planks_beams_stairs_connecti
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 118 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 125 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 124 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=inner_left,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 11 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 10 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=inner_left,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 17 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 16 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=inner_right,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 23 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 22 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=inner_right,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 27 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 28 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=outer_left,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 33 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 34 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=outer_left,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 39 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 40 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=outer_right,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 45 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 46 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=outer_right,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
@@ -4259,19 +4371,35 @@ execute unless block 52 100 -138 rechiseled:acacia_planks_beams_stairs_connectin
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 58 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 65 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 64 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=inner_left,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 71 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 70 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=inner_left,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 77 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 76 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=inner_right,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 83 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 82 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=inner_right,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 87 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 88 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=outer_left,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 93 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 94 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=outer_left,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 99 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 100 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=outer_right,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 105 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 106 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=outer_right,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
@@ -4279,9 +4407,13 @@ execute unless block 112 100 -138 rechiseled:acacia_planks_beams_stairs_connecti
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 118 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=straight,waterlogged=true] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 123 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 123 101 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 124 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=inner_left,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
-execute unless block 125 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=inner_left,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+execute unless block 124 101 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=inner_left,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 8 100 -132 rechiseled:amethyst_block_pillar_connecting[axis=x] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
@@ -4399,15 +4531,19 @@ execute unless block 112 100 -132 rechiseled:glowstone_bricks_slab_connecting[ty
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 113 100 -132 rechiseled:glowstone_bricks_slab_connecting[type=bottom,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
+execute unless block 117 100 -132 rechiseled:glowstone_bricks_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
+execute unless block 119 101 -132 rechiseled:glowstone_bricks_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+scoreboard players add #checked rechiseled_gallery 1
 execute unless block 118 100 -132 rechiseled:glowstone_bricks_stairs_connecting[facing=east,half=bottom,shape=inner_left,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
-execute unless block 119 100 -132 rechiseled:glowstone_bricks_stairs_connecting[facing=east,half=bottom,shape=outer_right,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
+execute unless block 118 101 -132 rechiseled:glowstone_bricks_stairs_connecting[facing=east,half=bottom,shape=outer_right,waterlogged=false] run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 148 100 -55 rechiseled:acacia_planks_beams run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
 execute unless block 154 100 -55 minecraft:stone run scoreboard players add #failures rechiseled_gallery 1
 scoreboard players add #checked rechiseled_gallery 1
-execute unless score #checked rechiseled_gallery matches 2203 run scoreboard players add #failures rechiseled_gallery 1
+execute unless score #checked rechiseled_gallery matches 2271 run scoreboard players add #failures rechiseled_gallery 1
 execute unless score #swatches rechiseled_gallery matches 1743 run scoreboard players add #failures rechiseled_gallery 1
 execute unless score #structures rechiseled_gallery matches 179 run scoreboard players add #failures rechiseled_gallery 1
 execute unless score #controls rechiseled_gallery matches 2 run scoreboard players add #failures rechiseled_gallery 1

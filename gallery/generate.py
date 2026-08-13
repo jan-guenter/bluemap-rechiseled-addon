@@ -24,6 +24,19 @@ SWATCH_COLUMNS = 42
 STRUCTURAL_ORIGIN = (10, 100, -180)
 STRUCTURAL_COLUMNS = 20
 CELL_SIZE = 6
+HORIZONTAL_OFFSETS = {
+    "north": (0, 0, -1),
+    "east": (1, 0, 0),
+    "south": (0, 0, 1),
+    "west": (-1, 0, 0),
+}
+COUNTER_CLOCKWISE = {
+    "north": "west",
+    "east": "north",
+    "south": "east",
+    "west": "south",
+}
+CLOCKWISE = {value: key for key, value in COUNTER_CLOCKWISE.items()}
 
 
 @dataclass(frozen=True, order=True)
@@ -52,6 +65,62 @@ class Fixture:
     anchor: Position
     placements: tuple[Placement, ...]
     notes: str
+
+
+def stair_topology(
+    block: str,
+    facing: str,
+    half: str,
+    shape: str,
+    waterlogged: str,
+    target: tuple[int, int, int] = (0, 0, 0),
+) -> tuple[tuple[int, int, int, str] | None, tuple[int, int, int, str]]:
+    """Return the support (if needed) and target for a stable vanilla stair state."""
+    if facing not in HORIZONTAL_OFFSETS:
+        raise ValueError(f"invalid stair facing: {facing}")
+    if half not in {"bottom", "top"}:
+        raise ValueError(f"invalid stair half: {half}")
+    if shape not in {
+        "inner_left", "inner_right", "outer_left", "outer_right", "straight"
+    }:
+        raise ValueError(f"invalid stair shape: {shape}")
+    if waterlogged not in {"false", "true"}:
+        raise ValueError(f"invalid stair waterlogged state: {waterlogged}")
+
+    tx, ty, tz = target
+    target_state = (
+        f"{block}[facing={facing},half={half},shape={shape},"
+        f"waterlogged={waterlogged}]"
+    )
+    target_placement = (tx, ty, tz, target_state)
+    if shape == "straight":
+        return None, target_placement
+
+    fx, fy, fz = HORIZONTAL_OFFSETS[facing]
+    if shape.startswith("inner_"):
+        fx, fy, fz = -fx, -fy, -fz
+    support_facing = (
+        COUNTER_CLOCKWISE[facing]
+        if shape.endswith("_left")
+        else CLOCKWISE[facing]
+    )
+    support_state = (
+        f"{block}[facing={support_facing},half={half},shape=straight,"
+        f"waterlogged={waterlogged}]"
+    )
+    return (tx + fx, ty + fy, tz + fz, support_state), target_placement
+
+
+def ordered_stair_topologies(
+    *topologies: tuple[
+        tuple[int, int, int, str] | None,
+        tuple[int, int, int, str],
+    ],
+) -> list[tuple[int, int, int, str]]:
+    """Place every support before any target so neighbor updates settle exactly."""
+    supports = [support for support, _target in topologies if support is not None]
+    targets = [target for _support, target in topologies]
+    return [*supports, *targets]
 
 
 def definitions() -> list[tuple[str, str]]:
@@ -191,25 +260,29 @@ def structural_fixtures() -> list[Fixture]:
                 "inner_left", "inner_right", "outer_left", "outer_right", "straight"
             ):
                 for waterlogged in ("false", "true"):
-                    state = (
-                        f"{stairs}[facing={facing},half={half},shape={shape},"
-                        f"waterlogged={waterlogged}]"
-                    )
                     add(
                         f"stairs-{facing}-{half}-{shape}-waterlogged-{waterlogged}",
                         "stairs-state",
-                        [(0, 0, 0, state)],
-                        "all 80 legal topology/rotation/half/waterlogged states",
+                        ordered_stair_topologies(stair_topology(
+                            stairs, facing, half, shape, waterlogged
+                        )),
+                        "all 80 legal target states; non-straight targets include a "
+                        "same-half perpendicular support placed first",
                     )
 
-    pieced_stair = (
-        f"{stairs}[facing=east,half=bottom,shape=inner_left,waterlogged=false]"
-    )
     add(
         "pieced-stair-connected",
         "pieced-partial",
-        [(0, 0, 0, pieced_stair), (1, 0, 0, pieced_stair)],
-        "connected stair partial UV and inner topology take PIECED split path",
+        ordered_stair_topologies(
+            stair_topology(
+                stairs, "east", "bottom", "inner_left", "false", (0, 0, 0)
+            ),
+            stair_topology(
+                stairs, "east", "bottom", "inner_left", "false", (0, 1, 0)
+            ),
+        ),
+        "vertically connected stair partial UVs and stable inner topology take "
+        "the PIECED split path; supports are placed first",
     )
 
     axis_ids = [
@@ -298,13 +371,18 @@ def structural_fixtures() -> list[Fixture]:
     add(
         "glowstone-stair-connected",
         "glowstone",
-        [
-            (0, 0, 0, "rechiseled:glowstone_bricks_stairs_connecting"
-             "[facing=east,half=bottom,shape=inner_left,waterlogged=false]"),
-            (1, 0, 0, "rechiseled:glowstone_bricks_stairs_connecting"
-             "[facing=east,half=bottom,shape=outer_right,waterlogged=false]"),
-        ],
-        "connected glowstone stair silhouettes and ordinary element light",
+        ordered_stair_topologies(
+            stair_topology(
+                "rechiseled:glowstone_bricks_stairs_connecting",
+                "east", "bottom", "inner_left", "false", (0, 0, 0)
+            ),
+            stair_topology(
+                "rechiseled:glowstone_bricks_stairs_connecting",
+                "east", "bottom", "outer_right", "false", (0, 1, 0)
+            ),
+        ),
+        "vertically connected glowstone inner/outer stair silhouettes with "
+        "supports placed first and ordinary element light",
     )
 
     occupied: set[Position] = set()

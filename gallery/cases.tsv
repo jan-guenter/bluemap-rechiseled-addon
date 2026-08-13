@@ -78,87 +78,87 @@ slab-top-waterlogged-false	slab-state	100	100	-162	1	exact slab topology and per
 slab-top-waterlogged-true	slab-state	106	100	-162	1	exact slab topology and persisted waterlogged state
 pieced-slab-bottom-connected	pieced-partial	112	100	-162	2	connected partial side UV crosses the global PIECED seam
 pieced-slab-top-connected	pieced-partial	118	100	-162	2	connected partial side UV crosses the global PIECED seam
-stairs-east-bottom-inner_left-waterlogged-false	stairs-state	124	100	-162	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-east-bottom-inner_left-waterlogged-true	stairs-state	10	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-east-bottom-inner_right-waterlogged-false	stairs-state	16	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-east-bottom-inner_right-waterlogged-true	stairs-state	22	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-east-bottom-outer_left-waterlogged-false	stairs-state	28	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-east-bottom-outer_left-waterlogged-true	stairs-state	34	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-east-bottom-outer_right-waterlogged-false	stairs-state	40	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-east-bottom-outer_right-waterlogged-true	stairs-state	46	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-east-bottom-straight-waterlogged-false	stairs-state	52	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-east-bottom-straight-waterlogged-true	stairs-state	58	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-east-top-inner_left-waterlogged-false	stairs-state	64	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-east-top-inner_left-waterlogged-true	stairs-state	70	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-east-top-inner_right-waterlogged-false	stairs-state	76	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-east-top-inner_right-waterlogged-true	stairs-state	82	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-east-top-outer_left-waterlogged-false	stairs-state	88	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-east-top-outer_left-waterlogged-true	stairs-state	94	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-east-top-outer_right-waterlogged-false	stairs-state	100	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-east-top-outer_right-waterlogged-true	stairs-state	106	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-east-top-straight-waterlogged-false	stairs-state	112	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-east-top-straight-waterlogged-true	stairs-state	118	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-north-bottom-inner_left-waterlogged-false	stairs-state	124	100	-156	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-north-bottom-inner_left-waterlogged-true	stairs-state	10	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-north-bottom-inner_right-waterlogged-false	stairs-state	16	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-north-bottom-inner_right-waterlogged-true	stairs-state	22	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-north-bottom-outer_left-waterlogged-false	stairs-state	28	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-north-bottom-outer_left-waterlogged-true	stairs-state	34	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-north-bottom-outer_right-waterlogged-false	stairs-state	40	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-north-bottom-outer_right-waterlogged-true	stairs-state	46	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-north-bottom-straight-waterlogged-false	stairs-state	52	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-north-bottom-straight-waterlogged-true	stairs-state	58	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-north-top-inner_left-waterlogged-false	stairs-state	64	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-north-top-inner_left-waterlogged-true	stairs-state	70	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-north-top-inner_right-waterlogged-false	stairs-state	76	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-north-top-inner_right-waterlogged-true	stairs-state	82	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-north-top-outer_left-waterlogged-false	stairs-state	88	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-north-top-outer_left-waterlogged-true	stairs-state	94	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-north-top-outer_right-waterlogged-false	stairs-state	100	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-north-top-outer_right-waterlogged-true	stairs-state	106	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-north-top-straight-waterlogged-false	stairs-state	112	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-north-top-straight-waterlogged-true	stairs-state	118	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-south-bottom-inner_left-waterlogged-false	stairs-state	124	100	-150	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-south-bottom-inner_left-waterlogged-true	stairs-state	10	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-south-bottom-inner_right-waterlogged-false	stairs-state	16	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-south-bottom-inner_right-waterlogged-true	stairs-state	22	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-south-bottom-outer_left-waterlogged-false	stairs-state	28	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-south-bottom-outer_left-waterlogged-true	stairs-state	34	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-south-bottom-outer_right-waterlogged-false	stairs-state	40	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-south-bottom-outer_right-waterlogged-true	stairs-state	46	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-south-bottom-straight-waterlogged-false	stairs-state	52	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-south-bottom-straight-waterlogged-true	stairs-state	58	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-south-top-inner_left-waterlogged-false	stairs-state	64	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-south-top-inner_left-waterlogged-true	stairs-state	70	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-south-top-inner_right-waterlogged-false	stairs-state	76	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-south-top-inner_right-waterlogged-true	stairs-state	82	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-south-top-outer_left-waterlogged-false	stairs-state	88	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-south-top-outer_left-waterlogged-true	stairs-state	94	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-south-top-outer_right-waterlogged-false	stairs-state	100	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-south-top-outer_right-waterlogged-true	stairs-state	106	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-south-top-straight-waterlogged-false	stairs-state	112	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-south-top-straight-waterlogged-true	stairs-state	118	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-west-bottom-inner_left-waterlogged-false	stairs-state	124	100	-144	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-west-bottom-inner_left-waterlogged-true	stairs-state	10	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-west-bottom-inner_right-waterlogged-false	stairs-state	16	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-west-bottom-inner_right-waterlogged-true	stairs-state	22	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-west-bottom-outer_left-waterlogged-false	stairs-state	28	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-west-bottom-outer_left-waterlogged-true	stairs-state	34	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-west-bottom-outer_right-waterlogged-false	stairs-state	40	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-west-bottom-outer_right-waterlogged-true	stairs-state	46	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-west-bottom-straight-waterlogged-false	stairs-state	52	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-west-bottom-straight-waterlogged-true	stairs-state	58	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-west-top-inner_left-waterlogged-false	stairs-state	64	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-west-top-inner_left-waterlogged-true	stairs-state	70	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-west-top-inner_right-waterlogged-false	stairs-state	76	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-west-top-inner_right-waterlogged-true	stairs-state	82	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-west-top-outer_left-waterlogged-false	stairs-state	88	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-west-top-outer_left-waterlogged-true	stairs-state	94	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-west-top-outer_right-waterlogged-false	stairs-state	100	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-west-top-outer_right-waterlogged-true	stairs-state	106	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-west-top-straight-waterlogged-false	stairs-state	112	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
-stairs-west-top-straight-waterlogged-true	stairs-state	118	100	-138	1	all 80 legal topology/rotation/half/waterlogged states
-pieced-stair-connected	pieced-partial	124	100	-138	2	connected stair partial UV and inner topology take PIECED split path
+stairs-east-bottom-inner_left-waterlogged-false	stairs-state	124	100	-162	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-east-bottom-inner_left-waterlogged-true	stairs-state	10	100	-156	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-east-bottom-inner_right-waterlogged-false	stairs-state	16	100	-156	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-east-bottom-inner_right-waterlogged-true	stairs-state	22	100	-156	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-east-bottom-outer_left-waterlogged-false	stairs-state	28	100	-156	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-east-bottom-outer_left-waterlogged-true	stairs-state	34	100	-156	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-east-bottom-outer_right-waterlogged-false	stairs-state	40	100	-156	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-east-bottom-outer_right-waterlogged-true	stairs-state	46	100	-156	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-east-bottom-straight-waterlogged-false	stairs-state	52	100	-156	1	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-east-bottom-straight-waterlogged-true	stairs-state	58	100	-156	1	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-east-top-inner_left-waterlogged-false	stairs-state	64	100	-156	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-east-top-inner_left-waterlogged-true	stairs-state	70	100	-156	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-east-top-inner_right-waterlogged-false	stairs-state	76	100	-156	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-east-top-inner_right-waterlogged-true	stairs-state	82	100	-156	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-east-top-outer_left-waterlogged-false	stairs-state	88	100	-156	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-east-top-outer_left-waterlogged-true	stairs-state	94	100	-156	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-east-top-outer_right-waterlogged-false	stairs-state	100	100	-156	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-east-top-outer_right-waterlogged-true	stairs-state	106	100	-156	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-east-top-straight-waterlogged-false	stairs-state	112	100	-156	1	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-east-top-straight-waterlogged-true	stairs-state	118	100	-156	1	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-north-bottom-inner_left-waterlogged-false	stairs-state	124	100	-156	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-north-bottom-inner_left-waterlogged-true	stairs-state	10	100	-150	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-north-bottom-inner_right-waterlogged-false	stairs-state	16	100	-150	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-north-bottom-inner_right-waterlogged-true	stairs-state	22	100	-150	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-north-bottom-outer_left-waterlogged-false	stairs-state	28	100	-150	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-north-bottom-outer_left-waterlogged-true	stairs-state	34	100	-150	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-north-bottom-outer_right-waterlogged-false	stairs-state	40	100	-150	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-north-bottom-outer_right-waterlogged-true	stairs-state	46	100	-150	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-north-bottom-straight-waterlogged-false	stairs-state	52	100	-150	1	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-north-bottom-straight-waterlogged-true	stairs-state	58	100	-150	1	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-north-top-inner_left-waterlogged-false	stairs-state	64	100	-150	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-north-top-inner_left-waterlogged-true	stairs-state	70	100	-150	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-north-top-inner_right-waterlogged-false	stairs-state	76	100	-150	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-north-top-inner_right-waterlogged-true	stairs-state	82	100	-150	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-north-top-outer_left-waterlogged-false	stairs-state	88	100	-150	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-north-top-outer_left-waterlogged-true	stairs-state	94	100	-150	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-north-top-outer_right-waterlogged-false	stairs-state	100	100	-150	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-north-top-outer_right-waterlogged-true	stairs-state	106	100	-150	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-north-top-straight-waterlogged-false	stairs-state	112	100	-150	1	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-north-top-straight-waterlogged-true	stairs-state	118	100	-150	1	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-south-bottom-inner_left-waterlogged-false	stairs-state	124	100	-150	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-south-bottom-inner_left-waterlogged-true	stairs-state	10	100	-144	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-south-bottom-inner_right-waterlogged-false	stairs-state	16	100	-144	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-south-bottom-inner_right-waterlogged-true	stairs-state	22	100	-144	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-south-bottom-outer_left-waterlogged-false	stairs-state	28	100	-144	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-south-bottom-outer_left-waterlogged-true	stairs-state	34	100	-144	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-south-bottom-outer_right-waterlogged-false	stairs-state	40	100	-144	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-south-bottom-outer_right-waterlogged-true	stairs-state	46	100	-144	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-south-bottom-straight-waterlogged-false	stairs-state	52	100	-144	1	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-south-bottom-straight-waterlogged-true	stairs-state	58	100	-144	1	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-south-top-inner_left-waterlogged-false	stairs-state	64	100	-144	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-south-top-inner_left-waterlogged-true	stairs-state	70	100	-144	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-south-top-inner_right-waterlogged-false	stairs-state	76	100	-144	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-south-top-inner_right-waterlogged-true	stairs-state	82	100	-144	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-south-top-outer_left-waterlogged-false	stairs-state	88	100	-144	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-south-top-outer_left-waterlogged-true	stairs-state	94	100	-144	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-south-top-outer_right-waterlogged-false	stairs-state	100	100	-144	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-south-top-outer_right-waterlogged-true	stairs-state	106	100	-144	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-south-top-straight-waterlogged-false	stairs-state	112	100	-144	1	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-south-top-straight-waterlogged-true	stairs-state	118	100	-144	1	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-west-bottom-inner_left-waterlogged-false	stairs-state	124	100	-144	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-west-bottom-inner_left-waterlogged-true	stairs-state	10	100	-138	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-west-bottom-inner_right-waterlogged-false	stairs-state	16	100	-138	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-west-bottom-inner_right-waterlogged-true	stairs-state	22	100	-138	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-west-bottom-outer_left-waterlogged-false	stairs-state	28	100	-138	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-west-bottom-outer_left-waterlogged-true	stairs-state	34	100	-138	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-west-bottom-outer_right-waterlogged-false	stairs-state	40	100	-138	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-west-bottom-outer_right-waterlogged-true	stairs-state	46	100	-138	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-west-bottom-straight-waterlogged-false	stairs-state	52	100	-138	1	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-west-bottom-straight-waterlogged-true	stairs-state	58	100	-138	1	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-west-top-inner_left-waterlogged-false	stairs-state	64	100	-138	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-west-top-inner_left-waterlogged-true	stairs-state	70	100	-138	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-west-top-inner_right-waterlogged-false	stairs-state	76	100	-138	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-west-top-inner_right-waterlogged-true	stairs-state	82	100	-138	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-west-top-outer_left-waterlogged-false	stairs-state	88	100	-138	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-west-top-outer_left-waterlogged-true	stairs-state	94	100	-138	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-west-top-outer_right-waterlogged-false	stairs-state	100	100	-138	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-west-top-outer_right-waterlogged-true	stairs-state	106	100	-138	2	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-west-top-straight-waterlogged-false	stairs-state	112	100	-138	1	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+stairs-west-top-straight-waterlogged-true	stairs-state	118	100	-138	1	all 80 legal target states; non-straight targets include a same-half perpendicular support placed first
+pieced-stair-connected	pieced-partial	124	100	-138	4	vertically connected stair partial UVs and stable inner topology take the PIECED split path; supports are placed first
 axis-amethyst_block_pillar_connecting	axis-state	10	100	-132	3	all x/y/z pillar transforms and per-face mixed layouts
 axis-blue_ice_pillar_connecting	axis-state	16	100	-132	3	all x/y/z pillar transforms and per-face mixed layouts
 axis-bone_block_connecting_connecting	axis-state	22	100	-132	3	all x/y/z pillar transforms and per-face mixed layouts
@@ -177,6 +177,6 @@ axis-state-mismatch	axis-connection	94	100	-132	3	x/y/z are deliberately not the
 axis-y-shape-interconnection	axis-connection	100	100	-132	3	axis=y base predicate interconnects matching slab and stair family
 glowstone-full-connected	glowstone	106	100	-132	9	ordinary installed block light; no invented emissive material
 glowstone-slab-connected	glowstone	112	100	-132	3	connected glowstone slab geometry and ordinary element light
-glowstone-stair-connected	glowstone	118	100	-132	2	connected glowstone stair silhouettes and ordinary element light
+glowstone-stair-connected	glowstone	118	100	-132	4	vertically connected glowstone inner/outer stair silhouettes with supports placed first and ordinary element light
 stock-0	stock	148	100	-55	1	untouched stock renderer control: rechiseled:acacia_planks_beams
 stock-1	stock	154	100	-55	1	untouched stock renderer control: minecraft:stone

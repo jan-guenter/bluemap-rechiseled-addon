@@ -11,5 +11,6 @@
   including global-midline clipping and legacy 8×6 FULL cropping.
 - Add bounded predicate interpretation, collision-safe tile generation,
   exact activation, diagnostics, alpha-safe overrides, and atomic stock fallback.
-- Add a deterministic 1,924-case / 2,203-placement gallery and exhaustive
-  focused selector, schema, artifact, state, and provenance tests.
+- Add a deterministic 1,924-case / 2,271-placement gallery, stable support
+  topology for all 68 non-straight stair targets, and exhaustive focused
+  selector, schema, artifact, state, and provenance tests.

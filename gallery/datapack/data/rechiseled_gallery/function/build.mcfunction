@@ -3944,168 +3944,234 @@ scoreboard players add #structures rechiseled_gallery 1
 setblock 118 100 -162 rechiseled:acacia_planks_beams_slab_connecting[type=top,waterlogged=false]
 setblock 119 100 -162 rechiseled:acacia_planks_beams_slab_connecting[type=top,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 123 100 -162 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=false]
 setblock 124 100 -162 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=inner_left,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 9 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=true]
 setblock 10 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=inner_left,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 15 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=false]
 setblock 16 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=inner_right,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 21 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=true]
 setblock 22 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=inner_right,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 29 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=false]
 setblock 28 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=outer_left,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 35 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=true]
 setblock 34 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=outer_left,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 41 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=false]
 setblock 40 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=outer_right,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 47 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=true]
 setblock 46 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=outer_right,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
 setblock 52 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
 setblock 58 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 63 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=straight,waterlogged=false]
 setblock 64 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=inner_left,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 69 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=straight,waterlogged=true]
 setblock 70 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=inner_left,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 75 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=straight,waterlogged=false]
 setblock 76 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=inner_right,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 81 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=straight,waterlogged=true]
 setblock 82 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=inner_right,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 89 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=straight,waterlogged=false]
 setblock 88 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=outer_left,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 95 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=straight,waterlogged=true]
 setblock 94 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=outer_left,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 101 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=straight,waterlogged=false]
 setblock 100 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=outer_right,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 107 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=straight,waterlogged=true]
 setblock 106 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=outer_right,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
 setblock 112 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=straight,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
 setblock 118 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=straight,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 124 100 -155 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=straight,waterlogged=false]
 setblock 124 100 -156 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=inner_left,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 10 100 -149 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=straight,waterlogged=true]
 setblock 10 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=inner_left,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 16 100 -149 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=false]
 setblock 16 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=inner_right,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 22 100 -149 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=true]
 setblock 22 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=inner_right,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 28 100 -151 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=straight,waterlogged=false]
 setblock 28 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=outer_left,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 34 100 -151 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=straight,waterlogged=true]
 setblock 34 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=outer_left,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 40 100 -151 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=false]
 setblock 40 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=outer_right,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 46 100 -151 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=true]
 setblock 46 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=outer_right,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
 setblock 52 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
 setblock 58 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 64 100 -149 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=straight,waterlogged=false]
 setblock 64 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=inner_left,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 70 100 -149 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=straight,waterlogged=true]
 setblock 70 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=inner_left,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 76 100 -149 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=straight,waterlogged=false]
 setblock 76 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=inner_right,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 82 100 -149 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=straight,waterlogged=true]
 setblock 82 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=inner_right,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 88 100 -151 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=straight,waterlogged=false]
 setblock 88 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=outer_left,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 94 100 -151 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=straight,waterlogged=true]
 setblock 94 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=outer_left,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 100 100 -151 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=straight,waterlogged=false]
 setblock 100 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=outer_right,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 106 100 -151 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=straight,waterlogged=true]
 setblock 106 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=outer_right,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
 setblock 112 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=straight,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
 setblock 118 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=straight,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 124 100 -151 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=false]
 setblock 124 100 -150 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=inner_left,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 10 100 -145 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=true]
 setblock 10 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=inner_left,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 16 100 -145 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=straight,waterlogged=false]
 setblock 16 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=inner_right,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 22 100 -145 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=straight,waterlogged=true]
 setblock 22 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=inner_right,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 28 100 -143 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=false]
 setblock 28 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=outer_left,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 34 100 -143 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=straight,waterlogged=true]
 setblock 34 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=outer_left,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 40 100 -143 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=straight,waterlogged=false]
 setblock 40 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=outer_right,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 46 100 -143 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=straight,waterlogged=true]
 setblock 46 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=outer_right,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
 setblock 52 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
 setblock 58 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 64 100 -145 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=straight,waterlogged=false]
 setblock 64 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=inner_left,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 70 100 -145 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=straight,waterlogged=true]
 setblock 70 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=inner_left,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 76 100 -145 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=straight,waterlogged=false]
 setblock 76 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=inner_right,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 82 100 -145 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=straight,waterlogged=true]
 setblock 82 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=inner_right,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 88 100 -143 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=straight,waterlogged=false]
 setblock 88 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=outer_left,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 94 100 -143 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=top,shape=straight,waterlogged=true]
 setblock 94 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=outer_left,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 100 100 -143 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=straight,waterlogged=false]
 setblock 100 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=outer_right,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 106 100 -143 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=straight,waterlogged=true]
 setblock 106 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=outer_right,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
 setblock 112 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=straight,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
 setblock 118 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=straight,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 125 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=false]
 setblock 124 100 -144 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=inner_left,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 11 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=true]
 setblock 10 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=inner_left,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 17 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=false]
 setblock 16 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=inner_right,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 23 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=true]
 setblock 22 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=inner_right,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 27 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=false]
 setblock 28 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=outer_left,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 33 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=true]
 setblock 34 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=outer_left,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 39 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=false]
 setblock 40 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=outer_right,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 45 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=true]
 setblock 46 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=outer_right,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
 setblock 52 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=straight,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
 setblock 58 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=bottom,shape=straight,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 65 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=straight,waterlogged=false]
 setblock 64 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=inner_left,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 71 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=straight,waterlogged=true]
 setblock 70 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=inner_left,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 77 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=straight,waterlogged=false]
 setblock 76 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=inner_right,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 83 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=straight,waterlogged=true]
 setblock 82 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=inner_right,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 87 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=straight,waterlogged=false]
 setblock 88 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=outer_left,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 93 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=south,half=top,shape=straight,waterlogged=true]
 setblock 94 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=outer_left,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 99 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=straight,waterlogged=false]
 setblock 100 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=outer_right,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 105 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=top,shape=straight,waterlogged=true]
 setblock 106 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=outer_right,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
 setblock 112 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=straight,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
 setblock 118 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=west,half=top,shape=straight,waterlogged=true]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 123 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=false]
+setblock 123 101 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=false]
 setblock 124 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=inner_left,waterlogged=false]
-setblock 125 100 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=inner_left,waterlogged=false]
+setblock 124 101 -138 rechiseled:acacia_planks_beams_stairs_connecting[facing=east,half=bottom,shape=inner_left,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
 setblock 8 100 -132 rechiseled:amethyst_block_pillar_connecting[axis=x]
 setblock 10 100 -132 rechiseled:amethyst_block_pillar_connecting[axis=y]
@@ -4183,8 +4249,10 @@ setblock 111 100 -132 rechiseled:glowstone_bricks_slab_connecting[type=bottom,wa
 setblock 112 100 -132 rechiseled:glowstone_bricks_slab_connecting[type=bottom,waterlogged=false]
 setblock 113 100 -132 rechiseled:glowstone_bricks_slab_connecting[type=bottom,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
+setblock 117 100 -132 rechiseled:glowstone_bricks_stairs_connecting[facing=north,half=bottom,shape=straight,waterlogged=false]
+setblock 119 101 -132 rechiseled:glowstone_bricks_stairs_connecting[facing=south,half=bottom,shape=straight,waterlogged=false]
 setblock 118 100 -132 rechiseled:glowstone_bricks_stairs_connecting[facing=east,half=bottom,shape=inner_left,waterlogged=false]
-setblock 119 100 -132 rechiseled:glowstone_bricks_stairs_connecting[facing=east,half=bottom,shape=outer_right,waterlogged=false]
+setblock 118 101 -132 rechiseled:glowstone_bricks_stairs_connecting[facing=east,half=bottom,shape=outer_right,waterlogged=false]
 scoreboard players add #structures rechiseled_gallery 1
 setblock 148 100 -55 rechiseled:acacia_planks_beams
 scoreboard players add #controls rechiseled_gallery 1

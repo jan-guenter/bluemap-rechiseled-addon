@@ -39,7 +39,7 @@ the add-on invents no emissive material.
 
 ## Deterministic gallery
 
-The generated gallery has exactly 1,924 logical cases and 2,203 verified
+The generated gallery has exactly 1,924 logical cases and 2,271 verified
 placements:
 
 | Gallery group | Logical cases |
@@ -55,7 +55,10 @@ unreachable 41/padding rows; all six slab states plus connected top/bottom
 PIECED slab and connected PIECED stair partial-UV witnesses;
 all 80 stair states for one family; x/y/z for all 12 axis IDs; same-axis and
 cross-shape connection witnesses; all routed glowstone IDs in the isolated
-census plus full/slab/stair structures; and negative coordinates.
+census plus full/slab/stair structures; and negative coordinates. Every one of
+the 68 non-straight stair targets has a non-overlapping same-half perpendicular
+support placed first, and both target and final straight support states are
+verified.
 
 No runtime, rendered-map, restart, client-connection, browser, or owner visual
 result is claimed until that exact staging gate is performed and recorded.

@@ -83,12 +83,13 @@ boundary audit, POM generation, and artifact verification once. See
 
 ## Gallery
 
-`gallery/` deterministically generates 1,924 logical cases and 2,203 verified
+`gallery/` deterministically generates 1,924 logical cases and 2,271 verified
 placements: all 1,743 routed IDs in isolated negative-coordinate swatches, 179
 structural cases, and two untouched stock controls. Structural cases cover all
 layouts, representative eight-neighbor masks, sheet edges, PIECED splitting,
 all 80 stair states for one family, every axis pillar in x/y/z, shape
-interconnection, and glowstone.
+interconnection, and glowstone. The 68 requested non-straight stair targets
+have deterministic same-half perpendicular supports placed before the targets.
 
 ## Licensing
 
