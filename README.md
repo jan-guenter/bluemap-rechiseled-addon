@@ -2,8 +2,11 @@
 
 This standalone MIT BlueMap add-on renders the connected models installed by
 Rechiseled 1.2.5 and Fusion 1.3.12 on the exact All the Mons 1.2.0 baseline.
-The `0.1.0-alpha.1` release candidate is runtime-gated and owner visually
-accepted; publication remains pending. The accepted evidence is recorded in
+Version `0.1.0-alpha.2` source-bundles the released MIT BlueMap Fusion Resource
+Models module from an exact gitlink. The module replaces four repository-local
+helper/selector types without changing the six-layout profile, predicates,
+route, fallback, or emitter. The `0.1.0-alpha.1` release candidate is
+runtime-gated and owner visually accepted; its evidence is recorded in
 [`docs/STAGING.md`](docs/STAGING.md).
 
 ## Exact contract
@@ -55,6 +58,11 @@ the entire route inactive. A malformed individual observation atomically
 discards partial geometry and renders the original pre-extension blockstate
 through BlueMap's stock renderer. `MaxCapacityReachedException` propagates.
 
+The shared module supplies axis arithmetic, direction masks, texture
+orientation, layout names, and sheet selection. `TextureLayout` remains local
+and maps by enum name at the selector call. This profile still admits exactly
+`PLAIN`, `PIECED`, `FULL`, `HORIZONTAL`, `VERTICAL`, and `SIMPLE`.
+
 Pixel-only resource-pack overrides remain supported when sheet dimensions stay
 exact. Structural JSON and Fusion metadata remain hash-locked. Active tile
 alpha is checked for exact and overridden sheets alike, so the reachable
@@ -64,7 +72,10 @@ full-cube culling for affected states.
 ## Build and review
 
 Java 21 and the exact local BlueMap 5.22 backport checkout are required. The
-focused local tranche gate is:
+focused local tranche gate is shown below. Clone with `--recurse-submodules`,
+or initialize an existing checkout with `git submodule update --init --recursive`.
+The settings preflight rejects a missing, dirty, staged, wrong-commit, or
+source-tree-mismatched Fusion module checkout.
 
 ```bash
 python3 tools/verify_pinned_artifacts.py \
@@ -79,7 +90,9 @@ gradle --no-daemon \
 ```
 
 Pull-request CI performs the authoritative clean build, production/sources JAR
-boundary audit, POM generation, and artifact verification once. See
+boundary audit, POM generation, and artifact verification once. Both archive
+gates require the exact shared source/class roster once and reject displaced
+local types. See
 [`docs/RELEASING.md`](docs/RELEASING.md).
 
 The owner-accepted candidate is commit

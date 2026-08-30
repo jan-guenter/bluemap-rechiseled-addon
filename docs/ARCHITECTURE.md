@@ -4,6 +4,7 @@
 
 ```text
 preflight renderer + extension registries
+  -> verify exact Fusion model source gitlink, index, HEAD, clean state, and source tree
   -> detect exact Rechiseled/Fusion JAR tuple
   -> validate active first-wins structural closure
   -> compile 5,822 bounded Fusion programs
@@ -74,6 +75,11 @@ B=-U, BL=-U-R, L=-R, TL=U-R
 This final-quad derivation is required for x/z pillars and UV-locked stairs;
 local face constants are insufficient. Lighting, culling, top-only filtering,
 and map color also use final directions.
+
+Five neutral model types compile from the exact source-module gitlink into the
+add-on JAR. The consumer-local `TextureLayout` maps by enum name only at the
+selector call. Resource admission, profile parsing, predicates, tile catalogs,
+route activation, fallback, and mesh emission remain local.
 
 ## Sheet layouts
 

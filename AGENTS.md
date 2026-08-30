@@ -9,6 +9,9 @@ this README, `docs/ARCHITECTURE.md`, `docs/PROVENANCE.md`, and
 
 - Java 21, BlueMap 5.22 backport commit
   `9be321df995a1103808621d529eb72773e719d4d`, Minecraft 1.21.1.
+- Source-bundle BlueMap Fusion Resource Models `0.1.0-alpha.1` only from
+  commit `3ddd5d39bb7cc8664c242aedd849a636316075c2`, source tree
+  `6e85031ff2f0e7417a7a2fb0babbf7ed5a4f218a`.
 - Own only the generated 1,743-row `rechiseled:*_connecting` allowlist.
 - Never register `fusion:*`, depend on another mod for activation, or add a
   RechiseledCreate bridge here.
@@ -25,6 +28,8 @@ this README, `docs/ARCHITECTURE.md`, `docs/PROVENANCE.md`, and
   `bluemap_rechiseled:fusion_model`.
 - Do not change orchestration files, cluster state, remotes, tags, releases, or
   production systems from this repository task.
+- Keep local profile parsing, predicates, catalogs, routes, fallback, and
+  emission policy outside the shared Fusion model package.
 
 ## Generated inputs
 
