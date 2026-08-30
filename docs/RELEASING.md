@@ -12,10 +12,10 @@ The settings preflight must accept both gitlinks and reject a changed Fusion
 module HEAD, index, worktree, or `src/main/java` tree.
 
 This repository's local policy forbids JAR and publication-metadata tasks.
-Authoritative pull-request CI must produce the production JAR, sources JAR,
-POM, and Gradle module payloads. A reviewed follow-up commit must then record
-all four exact identities in `provenance/release.json` before the combined
-runtime gate or release. Do not invent or predict those hashes locally.
+Authoritative pull-request CI produced the production JAR, sources JAR, POM,
+and Gradle module payloads. The reviewed follow-up records all four exact
+identities in `provenance/release.json`; final pull-request CI and the combined
+runtime gate must reproduce and exercise them before release.
 
 Release only from a clean, independently reviewed commit merged through a pull
 request. A release tag must equal `v<addon_version>` and be an annotated,
