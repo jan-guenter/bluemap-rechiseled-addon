@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "status": "owner-accepted-release-candidate",
+  "version": "0.1.0-alpha.2",
+  "release_date": "2026-08-30",
+  "repository": "https://github.com/jan-guenter/bluemap-rechiseled-addon",
+  "tag": "v0.1.0-alpha.2",
+  "maven_coordinate": "io.github.jan-guenter:bluemap-rechiseled-addon:0.1.0-alpha.2",
+  "inherited_visual_acceptance": {
+    "baseline_version": "0.1.0-alpha.1",
+    "baseline_candidate_commit": "382ad2c3178026d727a3e3785a2674d3b87b35f5",
+    "baseline_production_jar_size": 645622,
+    "baseline_production_jar_sha256": "39793187b97b504e085664a23eb5e54961dfdeac1e9ccf57e1bd701bd90c0242",
+    "visual_acceptance": true,
+    "scope": "The accepted Rechiseled renderer and gallery behavior are unchanged; alpha.2 replaces four local pure-model sources with the package-neutral shared Fusion source module."
+  },
+  "final_release_artifacts": {
+    "production_jar": {
+      "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.2.jar",
+      "size": 647540,
+      "sha256": "083425a0bbaf7e4c99673fb169b63e452af9aea2621a4831664680a544f9695a"
+    },
+    "sources_jar": {
+      "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.2-sources.jar",
+      "size": 581629,
+      "sha256": "09687fd9c0f4f3c30d6eb98eb312a0a5c233b3fb0e34f91f527e01d6955461d7"
+    },
+    "pom": {
+      "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.2.pom",
+      "size": 1359,
+      "sha256": "2866efd132e69c2547031f6fc5a82a7ebf58f550fe090b8efd3139f0136a2e79"
+    },
+    "gradle_module": {
+      "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.2.module.json",
+      "size": 2841,
+      "sha256": "14870408c317c5c2b205cd71d466ab0cb3b61995cea2fe94aa072d52707fea35"
+    }
+  },
+  "fusion_model_migration": {
+    "module_repository": "https://github.com/jan-guenter/bluemap-fusion-resource-models",
+    "module_version": "0.1.0-alpha.1",
+    "module_tag": "v0.1.0-alpha.1",
+    "module_commit": "3ddd5d39bb7cc8664c242aedd849a636316075c2",
+    "module_source_tree": "6e85031ff2f0e7417a7a2fb0babbf7ed5a4f218a",
+    "removed_local_model_sources": 4,
+    "renderer_or_gallery_behavior_change": false
+  },
+  "verification": {
+    "authoritative_pr_ci_source_commit": "7a0a314f3fc599a44f0e4dacf491ea220f53f506",
+    "authoritative_pr_ci_run_id": 33299600261,
+    "production_jar_exact_byte_gate": true,
+    "sources_jar_exact_byte_gate": true,
+    "publication_metadata_exact_byte_gate": true,
+    "exact_input_gate": true,
+    "hostile_gitlink_trust_probes": true
+  }
+}

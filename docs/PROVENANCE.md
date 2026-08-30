@@ -25,6 +25,17 @@ as `META-INF/LICENSE-BlueMap` in both published JARs.
 Fusion predicate, orientation, selector, cropping, and PIECED clipping logic is
 independently authored from exact runtime JSON schemas and observable behavior.
 
+Version `0.1.0-alpha.2` source-bundles five neutral MIT model types from
+BlueMap Fusion Resource Models `0.1.0-alpha.1`, exact commit
+`3ddd5d39bb7cc8664c242aedd849a636316075c2` and `src/main/java` tree
+`6e85031ff2f0e7417a7a2fb0babbf7ed5a4f218a`. The module supplies no profile,
+resource admission, predicate, catalog, route, fallback, or emitter policy.
+Its JAR is neither nested nor installed. The binary and sources JAR audits
+require its five sources and eight resulting class files exactly once and
+reject the displaced local class names. Authoritative pull-request CI produced
+the exact `0.1.0-alpha.2` production JAR, sources JAR, POM, and Gradle module
+payloads recorded outside the packaged artifacts in `provenance/release.json`.
+
 ## ARR runtime inputs
 
 The exact Rechiseled 1.2.5 and Fusion 1.3.12 NeoForge descriptors both declare

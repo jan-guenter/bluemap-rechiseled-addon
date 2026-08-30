@@ -1,23 +1,25 @@
-# ADR 0001: keep the Fusion interpreter repository-local
+# ADR 0001: source-bundle the stable Fusion model helpers
 
-- Status: accepted for the first tranche
-- Date: 2026-08-13
+- Status: supersedes the first-tranche repository-local decision
+- Date: 2026-08-30
 
 ## Decision
 
-The bounded Fusion model/predicate/orientation/sheet interpreter stays inside
-this standalone Rechiseled add-on for its first release. It owns no block IDs
-outside the exact generated `rechiseled:*` allowlist.
+Pin BlueMap Fusion Resource Models `0.1.0-alpha.1` as an exact source
+submodule. Compile its five neutral model types into this add-on, while keeping
+the exact generated `rechiseled:*` allowlist and every runtime policy local.
+The module is not an installed service or nested JAR.
 
 ## Rationale
 
-This is the first exact Fusion-format consumer in the portfolio. Extracting a
-shared library before two independently accepted consumers exist would freeze
-an unproven API and couple releases. Repository-local code also makes the ARR
-resource boundary and production JAR audit unambiguous.
+Connected Glass, Glassential, Rechiseled, and Rechiseled Create now provide
+accepted, independently reviewed evidence for the same axis, direction,
+orientation, and selector behavior. The module contains that stable code only.
+Rechiseled is the all-six-layout pilot and maps its local layout enum by name.
 
 ## Consequences
 
-RechiseledCreate remains a future bridge. If another add-on needs the same
-bounded interpreter, compare accepted implementations and extract only stable
-MIT-owned contracts through a separate reviewed release.
+Predicate schemas, state comparison, resource admission, catalogs, routes,
+fallback, and emitters remain consumer-specific. The exact gitlink, checkout
+HEAD, clean state, and source tree fail closed before Gradle loads the shared
+sources.

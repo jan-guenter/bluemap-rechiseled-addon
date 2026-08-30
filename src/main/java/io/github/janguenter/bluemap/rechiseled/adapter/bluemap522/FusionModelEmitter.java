@@ -56,13 +56,14 @@ import de.bluecolored.bluemap.core.world.BlockState;
 import de.bluecolored.bluemap.core.world.LightData;
 import de.bluecolored.bluemap.core.world.block.BlockNeighborhood;
 import de.bluecolored.bluemap.core.world.block.ExtendedBlock;
-import io.github.janguenter.bluemap.rechiseled.model.AxisVector;
-import io.github.janguenter.bluemap.rechiseled.model.FusionDirection;
-import io.github.janguenter.bluemap.rechiseled.model.FusionTextureSelector;
-import io.github.janguenter.bluemap.rechiseled.model.TextureOrientation;
 import io.github.janguenter.bluemap.rechiseled.profile.Rechiseled125Fusion1312Profile;
 import io.github.janguenter.bluemap.rechiseled.profile.TextureCatalog;
 import io.github.janguenter.bluemap.rechiseled.profile.TextureLayout;
+import io.github.janguenter.bluemap.resource.fusion.model.AxisVector;
+import io.github.janguenter.bluemap.resource.fusion.model.FusionDirection;
+import io.github.janguenter.bluemap.resource.fusion.model.FusionTextureLayout;
+import io.github.janguenter.bluemap.resource.fusion.model.FusionTextureSelector;
+import io.github.janguenter.bluemap.resource.fusion.model.TextureOrientation;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -205,7 +206,9 @@ final class FusionModelEmitter {
         }
         FusionPredicate predicate = program.predicate(materialKey);
         int mask = connections(predicate, frame);
-        int tile = FusionTextureSelector.tile(texture.layout(), mask);
+        int tile = FusionTextureSelector.tile(
+                FusionTextureLayout.valueOf(texture.layout().name()), mask
+        );
         float[] ao = ambientOcclusion(element, localDirection, vertices);
         if (texture.layout() == TextureLayout.PIECED && tile < 0) {
             return emitPieced(vertices, ao, mask, frame, light, face);
