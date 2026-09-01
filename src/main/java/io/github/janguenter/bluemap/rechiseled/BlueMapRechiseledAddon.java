@@ -27,7 +27,12 @@ public final class BlueMapRechiseledAddon implements Runnable {
                     BlueMapRechiseledAddon.class.getClassLoader()
             );
             Method install = adapter.getMethod("install");
-            install.invoke(null);
+            Object integrationCandidateInstallResult = install.invoke(null);
+            if (!Boolean.TRUE.equals(integrationCandidateInstallResult)) {
+                inactive("candidate adapter installation rejected", null);
+                return;
+            }
+            System.out.println("BlueMap ATMons integration candidate activated: rechiseled@7e07f4e74ec1e92a6ead9aa1e66054af3e133aac");
         } catch (InvocationTargetException exception) {
             inactive("exact adapter initialization failed", exception.getCause());
         } catch (ReflectiveOperationException | LinkageError | RuntimeException exception) {

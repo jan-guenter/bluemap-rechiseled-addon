@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0-alpha.3 - unreleased
+## 0.1.0-alpha.3 - 2026-09-01
 
 - Target only BlueMap feature-backport version
   `5.22-feature.backport-5.23-stateless-java-web-server-46`, commit
@@ -13,6 +13,8 @@
   source module.
 - Preserve the exact profile, gallery, Fusion module pin, renderer behavior,
   and atomic stock fallback.
+- Require the reflective adapter installation to return `true` and emit the
+  bounded integration activation diagnostic exercised during aggregate review.
 
 ## 0.1.0-alpha.2 - 2026-08-30
 

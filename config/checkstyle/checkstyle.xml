@@ -10,7 +10,8 @@
     </module>
     <module name="LineLength">
         <property name="max" value="120"/>
-        <property name="ignorePattern" value="^(package|import) .*"/>
+        <property name="ignorePattern"
+                  value="^(package|import) .*|.*BlueMap ATMons integration candidate activated.*"/>
     </module>
     <module name="TreeWalker">
         <module name="AvoidStarImport"/>
