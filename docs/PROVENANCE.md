@@ -45,6 +45,9 @@ identity, registry guard, extension wrapper, and synthetic-dispatch check. The
 entrypoint, route, renderer, diagnostics, resource admission, and fallback
 policy remain local. The archive gates require the four shared sources and
 classes exactly once and reject the displaced 5.22 package and local helpers.
+Authoritative pull-request CI run `33473228909` produced the exact candidate
+production JAR, sources JAR, POM, and Gradle module identities recorded outside
+the packaged artifacts in `provenance/release.json`.
 
 ## ARR runtime inputs
 
