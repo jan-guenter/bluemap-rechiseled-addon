@@ -1,57 +1,113 @@
 {
   "schema_version": 1,
-  "status": "owner-accepted-release-candidate",
-  "version": "0.1.0-alpha.2",
-  "release_date": "2026-08-30",
+  "status": "unpublished-migration-candidate",
+  "published": false,
+  "version": "0.1.0-alpha.3",
+  "release_date": "2026-09-01",
   "repository": "https://github.com/jan-guenter/bluemap-rechiseled-addon",
-  "tag": "v0.1.0-alpha.2",
-  "maven_coordinate": "io.github.jan-guenter:bluemap-rechiseled-addon:0.1.0-alpha.2",
-  "inherited_visual_acceptance": {
-    "baseline_version": "0.1.0-alpha.1",
-    "baseline_candidate_commit": "382ad2c3178026d727a3e3785a2674d3b87b35f5",
-    "baseline_production_jar_size": 645622,
-    "baseline_production_jar_sha256": "39793187b97b504e085664a23eb5e54961dfdeac1e9ccf57e1bd701bd90c0242",
-    "visual_acceptance": true,
-    "scope": "The accepted Rechiseled renderer and gallery behavior are unchanged; alpha.2 replaces four local pure-model sources with the package-neutral shared Fusion source module."
-  },
-  "final_release_artifacts": {
+  "tag": "v0.1.0-alpha.3",
+  "maven_coordinate": "io.github.jan-guenter:bluemap-rechiseled-addon:0.1.0-alpha.3",
+  "candidate_artifacts": {
     "production_jar": {
-      "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.2.jar",
-      "size": 647540,
-      "sha256": "083425a0bbaf7e4c99673fb169b63e452af9aea2621a4831664680a544f9695a"
+      "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.3.jar",
+      "size": null,
+      "sha256": "PENDING"
     },
     "sources_jar": {
-      "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.2-sources.jar",
-      "size": 581629,
-      "sha256": "09687fd9c0f4f3c30d6eb98eb312a0a5c233b3fb0e34f91f527e01d6955461d7"
+      "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.3-sources.jar",
+      "size": null,
+      "sha256": "PENDING"
     },
     "pom": {
-      "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.2.pom",
-      "size": 1359,
-      "sha256": "2866efd132e69c2547031f6fc5a82a7ebf58f550fe090b8efd3139f0136a2e79"
+      "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.3.pom",
+      "size": null,
+      "sha256": "PENDING"
     },
     "gradle_module": {
-      "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.2.module.json",
-      "size": 2841,
-      "sha256": "14870408c317c5c2b205cd71d466ab0cb3b61995cea2fe94aa072d52707fea35"
+      "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.3.module.json",
+      "size": null,
+      "sha256": "PENDING"
     }
   },
-  "fusion_model_migration": {
-    "module_repository": "https://github.com/jan-guenter/bluemap-fusion-resource-models",
-    "module_version": "0.1.0-alpha.1",
-    "module_tag": "v0.1.0-alpha.1",
-    "module_commit": "3ddd5d39bb7cc8664c242aedd849a636316075c2",
-    "module_source_tree": "6e85031ff2f0e7417a7a2fb0babbf7ed5a4f218a",
-    "removed_local_model_sources": 4,
-    "renderer_or_gallery_behavior_change": false
+  "baseline_release": {
+    "version": "0.1.0-alpha.2",
+    "tag": "v0.1.0-alpha.2",
+    "commit": "c4dd008dae139cf0b193dc3a759c09d1857c479a",
+    "tree": "489f3305f07c685405de21fb7f11485bdc2fa3fd",
+    "production_jar_size": 647540,
+    "production_jar_sha256": "083425a0bbaf7e4c99673fb169b63e452af9aea2621a4831664680a544f9695a",
+    "owner_visual_acceptance_inherited_from_alpha_1": true,
+    "release_assets": {
+      "sources_jar": {
+        "size": 581629,
+        "sha256": "09687fd9c0f4f3c30d6eb98eb312a0a5c233b3fb0e34f91f527e01d6955461d7"
+      },
+      "pom": {
+        "size": 1359,
+        "sha256": "2866efd132e69c2547031f6fc5a82a7ebf58f550fe090b8efd3139f0136a2e79"
+      },
+      "gradle_module": {
+        "size": 2841,
+        "sha256": "14870408c317c5c2b205cd71d466ab0cb3b61995cea2fe94aa072d52707fea35"
+      }
+    }
+  },
+  "adapter_api_migration": {
+    "repository": "https://github.com/jan-guenter/bluemap-addon-adapter-api",
+    "version": "0.1.0-alpha.2",
+    "tag": "v0.1.0-alpha.2",
+    "release_target_commit": "e81f08bc4bfbf02d810ec8949a019130e2e61634",
+    "source_tree": "2f974c9bb2ba13888d69682f86f30f58922d30eb",
+    "target_bluemap_version": "5.22-feature.backport-5.23-stateless-java-web-server-46",
+    "bluemap_commit": "7e07f4e74ec1e92a6ead9aa1e66054af3e133aac",
+    "bluemap_api_commit": "285c9a60eff3ac2b0cab308ce1058d1565be0971",
+    "compiled_source_count": 4,
+    "standalone_module_jar_bundled": false,
+    "standalone_module_jar_nested": false,
+    "standalone_module_jar_installed": false,
+    "local_adapter_package": "io.github.janguenter.bluemap.rechiseled.adapter.bluemap523",
+    "displaced_local_helpers": [
+      "AdapterCompatibility",
+      "inline registry admission methods",
+      "RechiseledResourceExtensionType",
+      "inline synthetic dispatch validation"
+    ]
+  },
+  "fusion_model_module": {
+    "repository": "https://github.com/jan-guenter/bluemap-fusion-resource-models",
+    "version": "0.1.0-alpha.1",
+    "tag": "v0.1.0-alpha.1",
+    "release_target_commit": "3ddd5d39bb7cc8664c242aedd849a636316075c2",
+    "source_tree": "6e85031ff2f0e7417a7a2fb0babbf7ed5a4f218a",
+    "compiled_source_count": 5,
+    "unchanged_from_alpha_2": true,
+    "standalone_module_jar_bundled": false
+  },
+  "preserved_contract": {
+    "routed_block_count": 1743,
+    "legal_state_count": 50571,
+    "stock_block_count": 1884,
+    "gallery_case_count": 1924,
+    "gallery_placement_count": 2271,
+    "gallery_sources_changed": false,
+    "profiles_and_resources_changed": false,
+    "renderer_behavior_changed": false,
+    "stock_fallback_changed": false
   },
   "verification": {
-    "authoritative_pr_ci_source_commit": "7a0a314f3fc599a44f0e4dacf491ea220f53f506",
-    "authoritative_pr_ci_run_id": 33299600261,
-    "production_jar_exact_byte_gate": true,
-    "sources_jar_exact_byte_gate": true,
-    "publication_metadata_exact_byte_gate": true,
     "exact_input_gate": true,
-    "hostile_gitlink_trust_probes": true
+    "adapter_api_gitlink_and_source_tree_gate": true,
+    "fusion_module_gitlink_and_source_tree_gate": true,
+    "production_archive_boundary_gate": false,
+    "sources_archive_boundary_gate": false,
+    "exact_feature_backport_runtime_identity_gate": true,
+    "local_gradle_version": "9.6.1",
+    "local_java_runtime": "21.0.12.1+1",
+    "java_tests_passed": 23,
+    "python_tests_passed": 9,
+    "gallery_integrity": true,
+    "checkstyle": true,
+    "actionlint": true,
+    "release_identity_sealed": false
   }
 }

@@ -12,46 +12,53 @@ ROOT = Path(__file__).resolve().parents[2]
 
 
 class ReleaseContractTest(unittest.TestCase):
-    def test_alpha2_candidate_locks_module_and_all_publication_payloads(self) -> None:
+    def test_alpha3_candidate_is_unpublished_and_preserves_alpha2(self) -> None:
         release = json.loads((ROOT / "provenance/release.json").read_text())
-        self.assertEqual("owner-accepted-release-candidate", release["status"])
-        self.assertEqual("0.1.0-alpha.2", release["version"])
-        self.assertEqual("v0.1.0-alpha.2", release["tag"])
+        self.assertEqual("unpublished-migration-candidate", release["status"])
+        self.assertFalse(release["published"])
+        self.assertEqual("0.1.0-alpha.3", release["version"])
+        self.assertEqual("v0.1.0-alpha.3", release["tag"])
         self.assertEqual(
             {
                 "production_jar": {
-                    "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.2.jar",
-                    "size": 647_540,
-                    "sha256": "083425a0bbaf7e4c99673fb169b63e452af9aea2621a4831664680a544f9695a",
+                    "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.3.jar",
+                    "size": None,
+                    "sha256": "PENDING",
                 },
                 "sources_jar": {
-                    "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.2-sources.jar",
-                    "size": 581_629,
-                    "sha256": "09687fd9c0f4f3c30d6eb98eb312a0a5c233b3fb0e34f91f527e01d6955461d7",
+                    "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.3-sources.jar",
+                    "size": None,
+                    "sha256": "PENDING",
                 },
                 "pom": {
-                    "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.2.pom",
-                    "size": 1_359,
-                    "sha256": "2866efd132e69c2547031f6fc5a82a7ebf58f550fe090b8efd3139f0136a2e79",
+                    "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.3.pom",
+                    "size": None,
+                    "sha256": "PENDING",
                 },
                 "gradle_module": {
-                    "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.2.module.json",
-                    "size": 2_841,
-                    "sha256": "14870408c317c5c2b205cd71d466ab0cb3b61995cea2fe94aa072d52707fea35",
+                    "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.3.module.json",
+                    "size": None,
+                    "sha256": "PENDING",
                 },
             },
-            release["final_release_artifacts"],
+            release["candidate_artifacts"],
         )
-        migration = release["fusion_model_migration"]
+        baseline = release["baseline_release"]
+        self.assertEqual("0.1.0-alpha.2", baseline["version"])
         self.assertEqual(
-            "3ddd5d39bb7cc8664c242aedd849a636316075c2",
-            migration["module_commit"],
+            "083425a0bbaf7e4c99673fb169b63e452af9aea2621a4831664680a544f9695a",
+            baseline["production_jar_sha256"],
+        )
+        adapter = release["adapter_api_migration"]
+        self.assertEqual(
+            "e81f08bc4bfbf02d810ec8949a019130e2e61634",
+            adapter["release_target_commit"],
         )
         self.assertEqual(
-            "6e85031ff2f0e7417a7a2fb0babbf7ed5a4f218a",
-            migration["module_source_tree"],
+            "2f974c9bb2ba13888d69682f86f30f58922d30eb",
+            adapter["source_tree"],
         )
-        self.assertFalse(migration["renderer_or_gallery_behavior_change"])
+        self.assertFalse(release["preserved_contract"]["renderer_behavior_changed"])
 
 
 if __name__ == "__main__":

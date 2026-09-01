@@ -7,8 +7,12 @@ this README, `docs/ARCHITECTURE.md`, `docs/PROVENANCE.md`, and
 
 ## Boundaries
 
-- Java 21, BlueMap 5.22 backport commit
-  `9be321df995a1103808621d529eb72773e719d4d`, Minecraft 1.21.1.
+- Java 21, BlueMap 5.23 feature-backport commit
+  `7e07f4e74ec1e92a6ead9aa1e66054af3e133aac`, API commit
+  `285c9a60eff3ac2b0cab308ce1058d1565be0971`, Minecraft 1.21.1.
+- Source-bundle BlueMap Add-on Adapter API `0.1.0-alpha.2` only from commit
+  `e81f08bc4bfbf02d810ec8949a019130e2e61634`, source tree
+  `2f974c9bb2ba13888d69682f86f30f58922d30eb`.
 - Source-bundle BlueMap Fusion Resource Models `0.1.0-alpha.1` only from
   commit `3ddd5d39bb7cc8664c242aedd849a636316075c2`, source tree
   `6e85031ff2f0e7417a7a2fb0babbf7ed5a4f218a`.
@@ -30,6 +34,8 @@ this README, `docs/ARCHITECTURE.md`, `docs/PROVENANCE.md`, and
   production systems from this repository task.
 - Keep local profile parsing, predicates, catalogs, routes, fallback, and
   emission policy outside the shared Fusion model package.
+- Keep entrypoint, runtime state, renderer, and failure policy outside the
+  shared adapter package.
 
 ## Generated inputs
 

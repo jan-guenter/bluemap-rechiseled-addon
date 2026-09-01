@@ -1,21 +1,28 @@
 # Releasing
 
-Version `0.1.0-alpha.2` is a source-consolidation candidate. Initialize both
-source submodules before any gate:
+Version `0.1.0-alpha.2` is immutable and published. The current
+`0.1.0-alpha.3` source is an unpublished BlueMap 5.23 migration candidate. Its
+artifact identities remain `PENDING`. Do not tag or publish it until aggregate
+integration review is accepted and `provenance/release.json` is sealed.
+
+Initialize all exact source checkouts before any gate:
 
 ```bash
 git submodule update --init --recursive -- \
-  tooling/bluemap-addon-toolkit modules/bluemap-fusion-resource-models
+  tooling/bluemap-addon-toolkit \
+  modules/bluemap-addon-adapter-api \
+  modules/bluemap-fusion-resource-models
 ```
 
-The settings preflight must accept both gitlinks and reject a changed Fusion
-module HEAD, index, worktree, or `src/main/java` tree.
+The settings preflight must accept all gitlinks and reject a changed adapter or
+Fusion module HEAD, index, worktree, or `src/main/java` tree.
 
 This repository's local policy forbids JAR and publication-metadata tasks.
-Authoritative pull-request CI produced the production JAR, sources JAR, POM,
-and Gradle module payloads. The reviewed follow-up records all four exact
+Authoritative pull-request CI produces the production JAR, sources JAR, POM,
+and Gradle module payloads. A reviewed follow-up records all four exact
 identities in `provenance/release.json`; final pull-request CI and the combined
-runtime gate must reproduce and exercise them before release.
+runtime gate must reproduce and exercise them before release. The release
+workflow rejects provenance whose status is not `owner-accepted-release-candidate`.
 
 Release only from a clean, independently reviewed commit merged through a pull
 request. A release tag must equal `v<addon_version>` and be an annotated,

@@ -3,7 +3,7 @@
  */
 package io.github.janguenter.bluemap.rechiseled.activation;
 
-import io.github.janguenter.bluemap.rechiseled.adapter.bluemap522.FusionProgramCatalog;
+import io.github.janguenter.bluemap.rechiseled.adapter.bluemap523.FusionProgramCatalog;
 
 /** Process-scoped state for the single exact Rechiseled/Fusion route. */
 public final class RechiseledRuntime {

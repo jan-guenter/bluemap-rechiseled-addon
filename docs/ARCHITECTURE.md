@@ -4,7 +4,7 @@
 
 ```text
 preflight renderer + extension registries
-  -> verify exact Fusion model source gitlink, index, HEAD, clean state, and source tree
+  -> verify exact adapter and Fusion source gitlinks, indexes, HEADs, clean states, and trees
   -> detect exact Rechiseled/Fusion JAR tuple
   -> validate active first-wins structural closure
   -> compile 5,822 bounded Fusion programs
@@ -21,6 +21,11 @@ texture collision leaves the entire route inactive. Operator disablement uses
 `bluemap.rechiseled.disabledProfiles` or
 `BLUEMAP_RECHISELED_DISABLED_PROFILES` with profile ID
 `rechiseled-fusion-1.2.5-1.3.12`.
+
+The source-bundled adapter API owns the exact 5.23 runtime identity, guarded
+registry operations, resource-extension wrapper, and synthetic dispatch check.
+The add-on still owns its entrypoint, runtime, route, renderer, diagnostics,
+resource admission, and fallback policy. No module JAR is nested or installed.
 
 ## Exact profile
 

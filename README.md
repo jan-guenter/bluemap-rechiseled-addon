@@ -2,12 +2,12 @@
 
 This standalone MIT BlueMap add-on renders the connected models installed by
 Rechiseled 1.2.5 and Fusion 1.3.12 on the exact All the Mons 1.2.0 baseline.
-Version `0.1.0-alpha.2` source-bundles the released MIT BlueMap Fusion Resource
-Models module from an exact gitlink. The module replaces four repository-local
-helper/selector types without changing the six-layout profile, predicates,
-route, fallback, or emitter. The `0.1.0-alpha.1` release candidate is
-runtime-gated and owner visually accepted; its evidence is recorded in
-[`docs/STAGING.md`](docs/STAGING.md).
+Version `0.1.0-alpha.2` is the published Fusion source-module release. The
+current `0.1.0-alpha.3` source is an unpublished migration candidate for the
+exact BlueMap 5.23 feature backport. It compiles the released adapter API and
+Fusion model modules from exact gitlinks. The profile, gallery, route, fallback,
+and emitter behavior remain unchanged. Historical visual evidence is recorded
+in [`docs/STAGING.md`](docs/STAGING.md); alpha.3 still needs aggregate review.
 
 ## Exact contract
 
@@ -71,11 +71,20 @@ full-cube culling for affected states.
 
 ## Build and review
 
-Java 21 and the exact local BlueMap 5.22 backport checkout are required. The
-focused local tranche gate is shown below. Clone with `--recurse-submodules`,
-or initialize an existing checkout with `git submodule update --init --recursive`.
+Java 21, Gradle 9.6.1, and the exact BlueMap feature-backport checkout at commit
+`7e07f4e74ec1e92a6ead9aa1e66054af3e133aac` with API commit
+`285c9a60eff3ac2b0cab308ce1058d1565be0971` are required. Initialize all source
+modules before the focused local tranche gate:
+
+```bash
+git submodule update --init --recursive -- \
+  tooling/bluemap-addon-toolkit \
+  modules/bluemap-addon-adapter-api \
+  modules/bluemap-fusion-resource-models
+```
+
 The settings preflight rejects a missing, dirty, staged, wrong-commit, or
-source-tree-mismatched Fusion module checkout.
+source-tree-mismatched source module checkout.
 
 ```bash
 python3 tools/verify_pinned_artifacts.py \
@@ -95,11 +104,10 @@ gates require the exact shared source/class roster once and reject displaced
 local types. See
 [`docs/RELEASING.md`](docs/RELEASING.md).
 
-The owner-accepted candidate is commit
-`382ad2c3178026d727a3e3785a2674d3b87b35f5`. Its 645,622-byte production JAR
-has SHA-256
-`39793187b97b504e085664a23eb5e54961dfdeac1e9ccf57e1bd701bd90c0242`.
-This identity is a reviewed release candidate, not yet a published release.
+The published `0.1.0-alpha.2` production JAR is 647,540 bytes with SHA-256
+`083425a0bbaf7e4c99673fb169b63e452af9aea2621a4831664680a544f9695a`.
+Alpha.3 has no sealed artifact identity yet. Pull-request CI must produce the
+candidate artifacts before aggregate runtime and visual review.
 
 ## Gallery
 

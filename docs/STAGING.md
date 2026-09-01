@@ -1,9 +1,17 @@
 # Staging
 
-## Accepted result
+## Current migration candidate
 
-The owner accepted the rendered result on 2026-08-13. Publication remains
-pending. The accepted release-candidate identities are:
+Version `0.1.0-alpha.3` changes the BlueMap ABI and adapter bootstrap only. It
+keeps the accepted profile, gallery, renderer, Fusion source module, and stock
+fallback. Its build artifact and aggregate integration result are not accepted
+or sealed yet. The BlueMap 5.23 candidate must complete the gate below before
+tagging.
+
+## Historical accepted result
+
+The owner accepted the original rendered result on 2026-08-13. It was published
+as immutable prerelease `0.1.0-alpha.1`. The accepted candidate identities were:
 
 - reviewed commit:
   `382ad2c3178026d727a3e3785a2674d3b87b35f5`;

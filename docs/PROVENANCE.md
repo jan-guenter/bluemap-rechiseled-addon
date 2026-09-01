@@ -16,8 +16,9 @@ profile/resource-extension lineage.
 
 Geometry, UV-lock, lighting, AO, culling, cave, top-only, map-color, random
 offset, and model-selection mechanics in `FusionModelEmitter` adapt BlueMap
-5.22's MIT `ResourceModelRenderer` at the audited backport commit
-`9be321df995a1103808621d529eb72773e719d4d`. The affected file retains the
+`ResourceModelRenderer` mechanics at audited 5.23 feature-backport commit
+`7e07f4e74ec1e92a6ead9aa1e66054af3e133aac`, API commit
+`285c9a60eff3ac2b0cab308ce1058d1565be0971`. The affected file retains the
 BlueMap copyright and MIT notice.
 The complete BlueMap notice is also retained in `LICENSE-BlueMap` and packaged
 as `META-INF/LICENSE-BlueMap` in both published JARs.
@@ -35,6 +36,15 @@ require its five sources and eight resulting class files exactly once and
 reject the displaced local class names. Authoritative pull-request CI produced
 the exact `0.1.0-alpha.2` production JAR, sources JAR, POM, and Gradle module
 payloads recorded outside the packaged artifacts in `provenance/release.json`.
+
+Version `0.1.0-alpha.3` source-bundles the four MIT BlueMap Add-on Adapter API
+types from release `0.1.0-alpha.2`, exact commit
+`e81f08bc4bfbf02d810ec8949a019130e2e61634` and `src/main/java` tree
+`2f974c9bb2ba13888d69682f86f30f58922d30eb`. They replace the local runtime
+identity, registry guard, extension wrapper, and synthetic-dispatch check. The
+entrypoint, route, renderer, diagnostics, resource admission, and fallback
+policy remain local. The archive gates require the four shared sources and
+classes exactly once and reject the displaced 5.22 package and local helpers.
 
 ## ARR runtime inputs
 
