@@ -1,12 +1,35 @@
 # Staging
 
-## Current migration candidate
+## Accepted BlueMap 5.23 result
 
-Version `0.1.0-alpha.3` changes the BlueMap ABI and adapter bootstrap only. It
-keeps the accepted profile, gallery, renderer, Fusion source module, and stock
-fallback. Its build artifact and aggregate integration result are not accepted
-or sealed yet. The BlueMap 5.23 candidate must complete the gate below before
-tagging.
+The owner accepted Rechiseled in the combined All the Mons 1.2.0 BlueMap 5.23
+integration gallery on 2026-09-01. The reviewed v37 component record pinned
+source commit `9f2a46ba2ade03274c61129a4e54dfcb2add42d3` and the sealed
+650,002-byte CI base JAR with SHA-256
+`e28b83c30e56b8f779751093008e9d49ea1a7d9e08ea54cb384780c1eac938d8`.
+The integration composer replaced only the entrypoint class. The resulting
+650,048-byte reviewed JAR has SHA-256
+`9881d5803126128890097f51b4a7ef8a357c23beb48d8eaf0882bffb9794ea9d`.
+
+The exact composer entrypoint source, SHA-256
+`a16af40382ae45c15908614d90baaa8fcccf230158b56eee60d7759813ba6e42`,
+was promoted into the repository. Its reviewed class SHA-256 is
+`b85a128b6ab1b73f4accdd967c43f3b12a2816894217436f94207a10b2d80bca`.
+Authoritative pull-request CI run `33528747904` at commit
+`b8ad0dea2a46f361489c097deb75a4090d302914` reproduced that exact class
+and built the sealed release candidate.
+
+The CI production JAR is 650,048 bytes with SHA-256
+`95c9e026b4b2826be67b594390c69b1c4d2d5c1036152fa5a36271a82a66ff33`.
+All 94 entry payloads and their order are byte-identical to the reviewed JAR.
+Only bit 11 of every ZIP entry's general-purpose flag differs. Gradle sets the
+UTF-8-name flag, while the integration composer's Python ZIP rewrite cleared
+it for the same ASCII entry names. This metadata does not change any packaged
+byte presented to BlueMap.
+
+This acceptance covers the combined disposable integration gallery and the
+exact entry payloads above. It does not claim a production deployment,
+arbitrary resource packs, or RechiseledCreate behavior.
 
 ## Historical accepted result
 
@@ -37,7 +60,9 @@ production deployment.
 ## Gate
 
 1. Install the reviewed CI production JAR beside exact Rechiseled 1.2.5,
-   Fusion 1.3.12, the pack dependencies, and the pinned BlueMap backport.
+   Fusion 1.3.12, the pack dependencies, and the pinned BlueMap backport. If an
+   integration harness rewrites ZIP metadata, require identical entry payloads
+   and order and record the exact archive-only difference.
 2. Reset/reuse the disposable world and install the packaged gallery datapack.
 3. Apply the workspace staging gamerules that disable time/weather/random
    ticks/mobs/patrols/phantoms/traders/wardens/spawners/PvP/movement checks,

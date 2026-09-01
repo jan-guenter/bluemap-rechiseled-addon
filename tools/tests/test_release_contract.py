@@ -12,9 +12,9 @@ ROOT = Path(__file__).resolve().parents[2]
 
 
 class ReleaseContractTest(unittest.TestCase):
-    def test_alpha3_candidate_is_unpublished_and_preserves_alpha2(self) -> None:
+    def test_alpha3_candidate_is_owner_accepted_and_preserves_alpha2(self) -> None:
         release = json.loads((ROOT / "provenance/release.json").read_text())
-        self.assertEqual("unpublished-migration-candidate", release["status"])
+        self.assertEqual("owner-accepted-release-candidate", release["status"])
         self.assertFalse(release["published"])
         self.assertEqual("0.1.0-alpha.3", release["version"])
         self.assertEqual("v0.1.0-alpha.3", release["tag"])
@@ -22,13 +22,13 @@ class ReleaseContractTest(unittest.TestCase):
             {
                 "production_jar": {
                     "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.3.jar",
-                    "size": 650_002,
-                    "sha256": "e28b83c30e56b8f779751093008e9d49ea1a7d9e08ea54cb384780c1eac938d8",
+                    "size": 650_048,
+                    "sha256": "95c9e026b4b2826be67b594390c69b1c4d2d5c1036152fa5a36271a82a66ff33",
                 },
                 "sources_jar": {
                     "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.3-sources.jar",
-                    "size": 584_004,
-                    "sha256": "aca2d9521f3742a8b361e67591c7945308ad9a122fa42bbdc5a3c21cf4351b55",
+                    "size": 584_128,
+                    "sha256": "a009811922b22f0a6b8fa43beabe624a4d811ff2208c2bf6be76ae8617c9a258",
                 },
                 "pom": {
                     "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.3.pom",
@@ -38,10 +38,24 @@ class ReleaseContractTest(unittest.TestCase):
                 "gradle_module": {
                     "file_name": "bluemap-rechiseled-addon-0.1.0-alpha.3.module.json",
                     "size": 2_841,
-                    "sha256": "7b49972d42c64ad02dad2abd7db90c8954c20cce630deaac6e1fa1451aaa18d9",
+                    "sha256": "9e4f33e73606964fd2421db2d9ab6149d810fe0383d303f21626230a4da2de73",
+                },
+                "sha256sums": {
+                    "file_name": "SHA256SUMS",
+                    "size": 460,
+                    "sha256": "65c3e50f26e5605dcec3001d5302b1fd4d3d1209c92b6391c1ba94ad6be27e31",
                 },
             },
             release["candidate_artifacts"],
+        )
+        acceptance = release["owner_acceptance"]
+        self.assertEqual(94, acceptance["release_candidate_equivalence"]["entry_count"])
+        self.assertTrue(
+            acceptance["release_candidate_equivalence"]["entry_payloads_byte_identical"]
+        )
+        self.assertEqual(
+            "b85a128b6ab1b73f4accdd967c43f3b12a2816894217436f94207a10b2d80bca",
+            acceptance["reviewed_entrypoint"]["class_sha256"],
         )
         baseline = release["baseline_release"]
         self.assertEqual("0.1.0-alpha.2", baseline["version"])
@@ -61,10 +75,10 @@ class ReleaseContractTest(unittest.TestCase):
         self.assertFalse(release["preserved_contract"]["renderer_behavior_changed"])
         verification = release["verification"]
         self.assertEqual(
-            "5243f0ff9d12e7fb1087eac1f63e9a63e74ba2c9",
+            "b8ad0dea2a46f361489c097deb75a4090d302914",
             verification["authoritative_pr_ci_source_commit"],
         )
-        self.assertEqual(33_473_228_909, verification["authoritative_pr_ci_run_id"])
+        self.assertEqual(33_528_747_904, verification["authoritative_pr_ci_run_id"])
         self.assertTrue(verification["release_identity_sealed"])
 
 

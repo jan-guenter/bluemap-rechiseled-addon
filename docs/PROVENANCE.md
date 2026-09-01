@@ -45,9 +45,20 @@ identity, registry guard, extension wrapper, and synthetic-dispatch check. The
 entrypoint, route, renderer, diagnostics, resource admission, and fallback
 policy remain local. The archive gates require the four shared sources and
 classes exactly once and reject the displaced 5.22 package and local helpers.
-Authoritative pull-request CI run `33473228909` produced the exact candidate
-production JAR, sources JAR, POM, and Gradle module identities recorded outside
-the packaged artifacts in `provenance/release.json`.
+The aggregate integration composer added a Boolean result check and bounded
+activation diagnostic to the local entrypoint. The owner accepted that exact
+entrypoint and all other package entries on 2026-09-01. The source now contains
+that entrypoint and verifies its exact reviewed class identity during the
+production archive gate. Authoritative pull-request CI run `33528747904`
+produced the release candidate production JAR, sources JAR, POM, and Gradle
+module identities recorded outside the packaged artifacts in
+`provenance/release.json`.
+
+The reviewed integration JAR and CI release candidate contain the same 94
+entry payloads in the same order. Their whole-archive hashes differ only
+because the integration composer's ZIP rewrite cleared the UTF-8-name flag on
+ASCII entry names while Gradle retained it. No class, resource, manifest,
+license, profile, or other entry payload differs.
 
 ## ARR runtime inputs
 

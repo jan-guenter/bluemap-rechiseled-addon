@@ -1,10 +1,11 @@
 # Releasing
 
 Version `0.1.0-alpha.2` is immutable and published. The current
-`0.1.0-alpha.3` source is an unpublished BlueMap 5.23 migration candidate. Its
-four artifact identities are sealed from authoritative pull-request CI run
-`33473228909`. Do not tag or publish it until aggregate integration review is
-accepted and the provenance status is promoted.
+`0.1.0-alpha.3` source is the owner-accepted BlueMap 5.23 migration candidate.
+Its four artifact identities are sealed from authoritative pull-request CI run
+`33528747904`. The reviewed integration JAR and release JAR have identical
+entry payloads and order. Their only archive difference is the UTF-8-name flag
+recorded in `docs/STAGING.md` and `provenance/release.json`.
 
 Initialize all exact source checkouts before any gate:
 
@@ -34,8 +35,9 @@ immutable tag whose commit is on `main`. Version increases also require a PR.
 - exact dual artifacts and generated profile/gallery checks pass;
 - authoritative CI clean build, tests, Checkstyle, production/sources JAR
   boundaries, POM, and artifact verifier are green;
-- runtime/gallery/restart/browser and owner visual acceptance are recorded for
-  the exact CI JAR;
+- runtime and owner visual acceptance are recorded for the exact packaged
+  entry payloads, with any whole-archive metadata difference fully accounted
+  for;
 - status, diff, version, commit, tag target, remote, JAR contents, coordinates,
   and release notes are reviewed;
 - docs/provenance contain no future, inherited, or unobserved claim.

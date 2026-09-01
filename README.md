@@ -3,11 +3,12 @@
 This standalone MIT BlueMap add-on renders the connected models installed by
 Rechiseled 1.2.5 and Fusion 1.3.12 on the exact All the Mons 1.2.0 baseline.
 Version `0.1.0-alpha.2` is the published Fusion source-module release. The
-current `0.1.0-alpha.3` source is an unpublished migration candidate for the
-exact BlueMap 5.23 feature backport. It compiles the released adapter API and
-Fusion model modules from exact gitlinks. The profile, gallery, route, fallback,
-and emitter behavior remain unchanged. Historical visual evidence is recorded
-in [`docs/STAGING.md`](docs/STAGING.md); alpha.3 still needs aggregate review.
+current `0.1.0-alpha.3` source is the owner-accepted migration candidate for
+the exact BlueMap 5.23 feature backport. It compiles the released adapter API
+and Fusion model modules from exact gitlinks. The profile, gallery, route,
+fallback, and emitter behavior remain unchanged. The aggregate acceptance and
+archive-equivalence evidence are recorded in
+[`docs/STAGING.md`](docs/STAGING.md).
 
 ## Exact contract
 
@@ -104,10 +105,11 @@ gates require the exact shared source/class roster once and reject displaced
 local types. See
 [`docs/RELEASING.md`](docs/RELEASING.md).
 
-The published `0.1.0-alpha.2` production JAR is 647,540 bytes with SHA-256
-`083425a0bbaf7e4c99673fb169b63e452af9aea2621a4831664680a544f9695a`.
-Alpha.3 has no sealed artifact identity yet. Pull-request CI must produce the
-candidate artifacts before aggregate runtime and visual review.
+The sealed `0.1.0-alpha.3` production JAR is 650,048 bytes with SHA-256
+`95c9e026b4b2826be67b594390c69b1c4d2d5c1036152fa5a36271a82a66ff33`.
+Its 94 entry payloads and entry order are byte-identical to the aggregate
+review JAR. The only whole-archive difference is the ZIP UTF-8 flag. See the
+exact record in [`provenance/release.json`](provenance/release.json).
 
 ## Gallery
 
